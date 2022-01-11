@@ -11,13 +11,13 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - Grass shadow
-  - Grass
-  - Ledge shadow
-  - Ledge
-  - Decorations shadow
-  - Decorations
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -40,4 +40,31 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3283670837
+    locked: 0
+  - name: Grass shadow
+    uniqueID: 298058309
+    locked: 0
+  - name: Grass
+    uniqueID: 523207859
+    locked: 0
+  - name: Ledge shadow
+    uniqueID: 3735461889
+    locked: 0
+  - name: Ledge
+    uniqueID: 4271295203
+    locked: 0
+  - name: Decorations shadow
+    uniqueID: 1282211231
+    locked: 0
+  - name: Decorations
+    uniqueID: 2195625235
+    locked: 0
+  - name: Objects shadow
+    uniqueID: 3678207793
+    locked: 0
+  - name: Objects
+    uniqueID: 553276511
     locked: 0
