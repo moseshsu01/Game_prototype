@@ -1,0 +1,5006 @@
+fileFormatVersion: 2
+guid: de3fa9ab666c247d1a874e4170152671
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 14
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bulky trees_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9dc4439a7b14cd8bed6c16c28b422b
+      internalID: -254136182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d43521f1ad74113bc51b885b946d19
+      internalID: 258464864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d867995408254cf38abd85e29ff7c62
+      internalID: 610593302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10464aa3c1b124fc1a863db6b8f8d7da
+      internalID: 870001095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eee5e12f33814e9fbc375ad6ad17c03
+      internalID: -242261514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374bd14dfd9c64c95baef8807d7f85b9
+      internalID: -470014738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbcc49367f62464f8b22cc4d945858d
+      internalID: -1319808317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da73684b3d709462480f4d71f4cdf35f
+      internalID: 76343057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef4a2d5fb55c4c6eadcd2a67eb257c8
+      internalID: -1756288252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 462
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274d15775b84d4ca2856a3f38b86a5d3
+      internalID: 1359808645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55385045841c14cc5a4fb5e076183de3
+      internalID: 131129863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a6ef05fb4a448c94e9710b099062f
+      internalID: -202282967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea22b3b89546d43eab4ca80bbf547aa3
+      internalID: 398122590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa859267a92443f6a8298cb1614509c
+      internalID: -953920672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91e218e59e2c46c7be4ada393f9439b
+      internalID: -906522340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e293cfea292d4d00af5ec041d2238fc
+      internalID: -1175304765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cf0df3bc8444a81b90127d2ce8ce32
+      internalID: 2007510685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5828191b060fa4316b1b448e4718ae2d
+      internalID: -1793719509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be0e8ee42ba46eea14a6b3d3d249e9
+      internalID: -659872584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a1e81b1108542088bc18b850b0dfff
+      internalID: 1477490631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b89ff87a2b7849be8ebcadfa908d992
+      internalID: 537746550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c950f4b975caf4588879a28b7881865b
+      internalID: -1758973940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4c5406f874049fab80f8150f2fbd17
+      internalID: -739845544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7808310c3a4ef58754a838816fc34
+      internalID: 1864892443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_24
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab9e835dfd34b5ca526a9ddb273f05
+      internalID: 544050843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3779b390be849dca8d00675e2708e0
+      internalID: 196080205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09554d35cea6f40458f9179b44a5ad7e
+      internalID: 1652618673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb2d6014cd34c3ba90d499ff4db4f6
+      internalID: -1012837580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b33d4beb854407d94f1a1ef796d4b6
+      internalID: -2093842110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a4f94930ee4172a9a062485b56a6c
+      internalID: 847584163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cd331d0daa4462a91aefa8eaa24e70
+      internalID: -64409484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ff41e6154264c6a9739716dbb75a09
+      internalID: 659254726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db1dd69fe1443b0bac7cd6d01d969a
+      internalID: -630071318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca8952c8acfa482e88797741de65c58
+      internalID: 746925204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_34
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d218e2a13b48eb9f9344a6b7bb5dc
+      internalID: -181311781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_35
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526f91e4650d446d283ea0d87cfe9373
+      internalID: -667426446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_36
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858f6886e777848a48d4c491e2218f4d
+      internalID: -149877652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_37
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ef49e717c5f43629377efc40a1917f
+      internalID: 808383921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa08916344fa421dab6abc4400c0ad3
+      internalID: 111887690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3050be013c8414a90bdee08472203a42
+      internalID: 2141983091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_40
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813f01089ca8d4a018bfb0a458ef356e
+      internalID: 2110700425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8158749fec446d8ab733a25166fa34
+      internalID: 261443597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116badbf3c0b74296a046dcfe75f774e
+      internalID: 216114270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_43
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f44bee6f693049799fb5542c928e5e0
+      internalID: -1413287921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_44
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84351571bec8489c835c254f7d96be9
+      internalID: -601555747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb38a26e2d08422c940591511346699
+      internalID: 1965086860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24517adee6de435bba977fe41007351
+      internalID: -1986675693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_47
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c194f45a2b6f45f5a8eaecb01c37ee0
+      internalID: 1015476491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d27bd98f9b14ffcb88095735213a7c
+      internalID: 1326535272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d708422c4a1e480ba0a3a823b5ffbf0
+      internalID: 808838768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_50
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06324975805324f039200c87b3b3760e
+      internalID: -480199900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c38dd5ec2b3b4413b61eb432ac069ac
+      internalID: 338296430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_52
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6c912e9b184da3aa869f8ef04ae48
+      internalID: -880993542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_53
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e3fd633f26e41edb7edcc9822bd037
+      internalID: 1945982611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_54
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79974ddcaba994923800a71457221018
+      internalID: 2003496115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_55
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 420
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7da12d0efb1a48eb98fa524e49009ce
+      internalID: -1204279405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_56
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fbc19210c6542b085e1f34dc918926
+      internalID: -1137905866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_57
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f024a99800cea4e9fa005e23095f2a6f
+      internalID: -797885896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_58
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e0c3a39134b4ac4b84d3dee21a13f5
+      internalID: 187351014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe5a1c365cdb46e888418af5d2eb7fe
+      internalID: 1445354758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_60
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cb958b798014879a8d72a5c3c5b87a
+      internalID: -1499772545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_61
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f13fbfa7d9d481e87e97cd69d86fe2
+      internalID: -814150511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_62
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5258be39e5524941b9befa660c18cf8
+      internalID: 1316660780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_63
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b588d65d9ec1a43cdbd30947591e069c
+      internalID: -248008462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_64
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179fcb70e7523457fa44e104b19f1c29
+      internalID: -769411405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_65
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25868398803c74c0688686ee9d4d28d8
+      internalID: 1391888853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afafa44de9604f2f899d7e2c5cf3e0a
+      internalID: 987122494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_67
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb24136d332f4db18c06fa1f2083a1e
+      internalID: 96971376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_68
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340036c2b12ca437993e6ead776ef356
+      internalID: 1951846822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_69
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 406
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c296e1185cae44178af4cefdccb50c46
+      internalID: 1820697445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_70
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0e2aede5f8145b8ad90689045a7d5d
+      internalID: 155040148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_71
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405edcf4a52e7450ca5f7dd0deb1a6d4
+      internalID: 1151108127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_72
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632636159f9834410a38daa07a6bb79f
+      internalID: 635484248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_73
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e46994d42eb4094909a4dd61bb1ae4
+      internalID: 549351481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_74
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c44ca00d5e044c48681647d5927a0d
+      internalID: 1333649047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_75
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8e3038dd14e4c7f9275797c87977ed
+      internalID: 1732539200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282fd5af8634b4e75a998e6529e0995e
+      internalID: 1716778545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_77
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9e77b3b84c2416bb0567de73ceacda
+      internalID: -450801961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_78
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c45a8341b314c0b9062ef62e0477a9
+      internalID: -820078127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a8a35aa1fd444829010ba212995320
+      internalID: 1259888472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe4924003654eef958a8e562961c76
+      internalID: 747109238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_81
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e2542fc83884670981e236029efc82
+      internalID: -1088711346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_82
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f58a83d8ae17482f96971a22dd30fb3
+      internalID: -1025440156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e9c009f51634428b83308f888f511a
+      internalID: -1152910929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_84
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c906ea786eb8248d19551fdef32e0543
+      internalID: 1640457032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_85
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 392
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921e272a6b82541278e98cd26a9cbab5
+      internalID: -1475853210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_86
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b725a8defd44535a268889aa9700f4
+      internalID: -1938040459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_87
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19094faeeb2ef497e80289da7c5996cb
+      internalID: 837484850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_88
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f221f752e8dff46d88c6103c1bed59a9
+      internalID: 675239612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_89
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79cbdec23e684ff78ba874ca9b159bb
+      internalID: -212661800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_90
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08be5efd0467484a94947f31d2a7df4
+      internalID: -1388971820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_91
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0856d05edc0f840708d7e76a5fb41027
+      internalID: -652183648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_92
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3488d75e180440328d102eac9a77e9c
+      internalID: 1937056782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_93
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b96584130311427db3f3b0cfb2c54ad
+      internalID: -1683325333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_94
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3abc6d3db924e979f18ab79511da07
+      internalID: -64675708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_95
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ebcaa0f2c14067a4ae227125172c1
+      internalID: -464064382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_96
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a583d790f4941499437ab5896c146e
+      internalID: -895920298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_97
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a058e380994a16ae275966d03f8ca
+      internalID: -1014844149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_98
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aecc778597b4da49a9561143102607
+      internalID: 795423761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26fcc1e983547ad9ff27546479aac5
+      internalID: 1167238257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_100
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3810db61f5f4490bdda59c7aa3df94
+      internalID: -1442817231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_101
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 378
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc809f5aaf8246988f39a9dea2eb5b0
+      internalID: 201249788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_102
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de34950c1e0ac4718bd5737b9eb37d82
+      internalID: 662566361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_103
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebb98e2c5250407291a825635b0b3f7
+      internalID: -1335259145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_104
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3860932ad828845c2b090d55774bf685
+      internalID: -1503255897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_105
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dc4b6b9782f4d859c2796b47b391e1
+      internalID: -1308004784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_106
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312743b941dd04af78956b0012419efa
+      internalID: -102449631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_107
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963ad9435236f4e558472ab5225f2ba3
+      internalID: -578336877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_108
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2898bedd06476408aab83b1cd1058c78
+      internalID: -938423515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_109
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8704a3b270944be49f62260e0d5673e
+      internalID: 340506478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_110
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d77034a427548d4b23ffbfdfe41546
+      internalID: -1440179802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_111
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e84e0c8a73e64b9f91c0359e8d92f55
+      internalID: -2069187584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_112
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f6e8be52d6a4387a66ce34102d4217
+      internalID: 690414248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_113
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd4a537d6c1d40f0af428a8717050fd
+      internalID: 2085640979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2281216ef8e414d8e9682c9e7e5499
+      internalID: -592739512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_115
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0f7f7d2498846deb9222ac4843996b
+      internalID: -1010311714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_116
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6439aa917264222993fa55354a2606
+      internalID: -1153106090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_117
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4625f525ff89444469a57560feae7abc
+      internalID: -402448438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59fc9ff784541b49cf9fa03ac5f211
+      internalID: 1321093994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_119
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3861ef81e33d44acb22ac2b73ba86db
+      internalID: 1024725580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_120
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145d7d6ca998f4ad5a680a219afe3350
+      internalID: 1253151583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_121
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17985028fc6d54fffbf0b84fadbe7d7e
+      internalID: 1304631851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_122
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f5e7c3d5d964e2ea5ff342804d1365
+      internalID: 269214375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_123
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169e0318e87484015a0860d80530461b
+      internalID: 384951402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_124
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5470efe401724a27811dfb8666e633d
+      internalID: -450329058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_125
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a01d0fb6fff4476be7253443b04009
+      internalID: -628699015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_126
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af045d3197cba483db03d78a55c39f59
+      internalID: -1151822433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_127
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ccac6478f7f4d60b6a8ccac72ef5c5
+      internalID: 1645087302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201df8cc05d1643a89af6c59f0ee9ecf
+      internalID: -1464752483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_129
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fcf5198ea0640f584743f7b9d180cd
+      internalID: 1444039660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_130
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babaa26159a51403eac326b2323ebeff
+      internalID: 1813487631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_131
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 350
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d6a1a9113f44269a22ef4316070633
+      internalID: -560219125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_132
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52294fb6513543e492e9fcf770659fe
+      internalID: -1107836198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_133
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bcfb05cec384337b96bc2b8ce7d03a
+      internalID: -745239354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_134
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a69c25826384e32accec9c9a2751e4
+      internalID: 1664013283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277ff42d32eab405086b4f659a063cb9
+      internalID: -76396808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_136
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f5209965c741229bcf42a68c1e28e
+      internalID: -1896958178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_137
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c38cfd5b6a53430680af51e508d6d6f
+      internalID: 2013295252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_138
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba466930870248b8a1a6d4abff3653b
+      internalID: 1509478748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_139
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cf0d9b538f0473aad0fbe7fef3ad09
+      internalID: 1372584562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_140
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d952984307c8a4289acfe03ad5ae1d33
+      internalID: 1178163697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_141
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8988205601c64407b2b902015f6909e
+      internalID: 998462410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_142
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294f1f3324a294a928483865d83dce50
+      internalID: -990433393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_143
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f74a7fbc98547d3966d68a1bef12ee
+      internalID: -1828849530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_144
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d06f8bf904047cb94134dbb1803ad4
+      internalID: -1096459427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_145
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 336
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5141ff628764b6290a291bc3517c99
+      internalID: 634800768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_146
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414986ca2b4c1469193add2a1bd48b79
+      internalID: 1639792850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_147
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904980d4fe81b463fa9fc5adf7266870
+      internalID: 327482918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_148
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a627575486234afd8b042c7644c4760
+      internalID: -1604722566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_149
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d59ab14d415044fd915018f26a3dbe4
+      internalID: 75004895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_150
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f170cf47d74164cadb9a7023321d07bf
+      internalID: 869373836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8204576d74d4a23b00f137e8da54ca
+      internalID: -1613044464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_152
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7f8bb5ba99c48ee8fbd8ab78765ba7
+      internalID: 724707840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_153
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b688ac3e706741d6b114c9473747cf9
+      internalID: 2098068151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_154
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3557706e8929b4ca18e3512518cb892f
+      internalID: -525866885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_155
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68954d576295d4dbdaf05a74cf691bac
+      internalID: -55625379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_156
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9520ec554f34c3ebe21b95315e4206
+      internalID: 563241275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_157
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c65cd6f36464170b13dc27d758b9ad
+      internalID: -1468181907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_158
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f030dad3f393b4350a76979bfa1107fb
+      internalID: 951494739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_159
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e979501ee60a44662a0aefbbeadcefc2
+      internalID: 1761131084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_160
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6600ce87e04405991ca8b2d8703fdc
+      internalID: 2070433634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_161
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d075d4fc5a2074697b75fb6c5b21cdc2
+      internalID: 783267994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_162
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9e3ba3a3ba049d49207b6b98e4e614
+      internalID: -1256970198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_163
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b18c896170194ae2b6eae7f860f61f3
+      internalID: -244568514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_164
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44726a2d2064a46958f99fc7db17d15c
+      internalID: -1241804798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_165
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f35178846c844901a76d88d07ff68a0
+      internalID: -2054910452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_166
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1f844028bda4cc7b123c60c078dc9f
+      internalID: -484385009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_167
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75bd1de3d83a4b92867323511673303
+      internalID: 1501667078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_168
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20677fb02ed14ea99b7475e135546d5
+      internalID: -1472992630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_169
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada622e76ae6d4b5a90cc45aedf4eb51
+      internalID: -585550728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_170
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8d2fa51e4164686ac3754f3868a90d
+      internalID: -263732549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_171
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ba34599424042a9ae98fd73e9dc05b
+      internalID: 1986567326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_172
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20facebf98f6f400caaf1e198a1af25b
+      internalID: -627841353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_173
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bab000395374d8197a11e48a7187d7
+      internalID: 2060054142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_174
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ccac1250b6446bda6a780dbfba53a2
+      internalID: -568427368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_175
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 308
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc7ec2f6d2544b1d9d9fc3e05db2bb4
+      internalID: 2115609061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_176
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f248195c56f044409f12bc6d945b309
+      internalID: 1684876169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_177
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c1ccaf0d47246b2b6371ae5cf2d1ff
+      internalID: -1661449436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_178
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0554780bef994b4792ebeec10e954d6
+      internalID: -1599246501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_179
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003eee6c27c4f47fd8194e7911a56773
+      internalID: 1949457930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_180
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837cfacd12f4f4618b86a5bb36d48864
+      internalID: 874413594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_181
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed239a0f46e7446dd958af243c811e2b
+      internalID: 214566328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_182
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f53e0d4c0d2471aa23636eb0ed39d4
+      internalID: 581904841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_183
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5f10482540a4c188b68291970a0856
+      internalID: 934868922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_184
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0962c4b0b054a4e8e92501b9ddbcc4
+      internalID: 1858790187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_185
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0570907fd35764e1abee9a16093598d8
+      internalID: 428039367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_186
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001df1fa9b8449c7ae50556f012bf3e
+      internalID: 218888535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_187
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e2d431f97c94cd58119485c58a32b2
+      internalID: 1539003020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_188
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc5901015239477296f1099ffcba6c0
+      internalID: -96856279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_189
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5655c399acf4e4ed694aadb597cab034
+      internalID: 758732508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_190
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208ffa0a094da418dbf63f4e76aeb272
+      internalID: 1945111636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_191
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d45b506f72c43cd81e1e7261dcdd86
+      internalID: -258627086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_192
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374982bc22fb4de4ad1b1c7fef482ef
+      internalID: -1354413060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_193
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af802899c18744ef8baad54f60032d8
+      internalID: -22345932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_194
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b666e88ead764d98970eb73a11dd6e7
+      internalID: -1819094328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_195
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8896b1f8153745da957762994f3bf56
+      internalID: 559061044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_196
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ffa2823326f499c86460f5bac84cb3
+      internalID: -2084595584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_197
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caadf3806b3434c478ee83bda74350f6
+      internalID: 1804605371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_198
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829ab9d1561764d969ff1c8d79be074c
+      internalID: 796592388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_199
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d2539fa31e40f8a7279a75a667fbf
+      internalID: -140258192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_200
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63134cabb12d14697a7812573d2e6b9f
+      internalID: 395972701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_201
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4422d4e26b5334378972177fe24b480b
+      internalID: -1418273932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_202
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e9562129b9e457fa4157196a35c74d
+      internalID: -1418415613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_203
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ac9f375afd47d59cc8579e399cdf3
+      internalID: 684996425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_204
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9072e92fd131545b697ca438492307b1
+      internalID: 513813586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_205
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 280
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c08d39581854f9bb94095c3fdf25a8
+      internalID: -428468112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_206
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b448d15d50a1d4b0fb56472492c23c13
+      internalID: -1229640976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_207
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308a3e4292ec14985b077130fa45bfc2
+      internalID: 6819208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_208
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9441c8dd25ae748c69fcfbd63a6b7bc7
+      internalID: -756864918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_209
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45a3a5a27b074ee89c3ce295841ce62
+      internalID: 1415353017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_210
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519e1dd886c346d3a0e3cb7a7835ae6
+      internalID: -495167342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_211
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa7fa5f490b746509865262d0de9b2f
+      internalID: -457944621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_212
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dcb2e1744f04d7c8217b18210cad5f
+      internalID: -651949716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_213
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8219c60f63e46488585f9d66af1492f4
+      internalID: -2104774339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_214
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637a75d8ee42c40a0a209b24f65a05e4
+      internalID: -666789473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_215
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164a3489e7da04a50aea983a83f092ed
+      internalID: -824253357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_216
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 252
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c6c04c1951c4c45adbfabbcf42f29f
+      internalID: -1239168577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_217
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 252
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9019c617036e84b38bc49eaccf93b87d
+      internalID: 975527065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_218
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 252
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eda751ebc694e699d8005fd891ab9e
+      internalID: 933460061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_219
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 252
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d0f29efcd94e71b86cce41590f0fe
+      internalID: 1308087864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_220
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 252
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946612db9a6d94adb863b3d0e64b5b7b
+      internalID: 1104272341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulky trees_221
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 252
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d13b64d9dbe348fb9c659940ddd56c6
+      internalID: -489033863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bulky trees_24: 544050843
+      Bulky trees_123: 384951402
+      Bulky trees_56: -1137905866
+      Bulky trees_189: 758732508
+      Bulky trees_40: 2110700425
+      Bulky trees_204: 513813586
+      Bulky trees_86: -1938040459
+      Bulky trees_115: -1010311714
+      Bulky trees_128: -1464752483
+      Bulky trees_68: 1951846822
+      Bulky trees_29: 847584163
+      Bulky trees_211: -457944621
+      Bulky trees_158: 951494739
+      Bulky trees_8: -1756288252
+      Bulky trees_150: 869373836
+      Bulky trees_214: -666789473
+      Bulky trees_74: 1333649047
+      Bulky trees_42: 216114270
+      Bulky trees_157: -1468181907
+      Bulky trees_53: 1945982611
+      Bulky trees_184: 1858790187
+      Bulky trees_13: -953920672
+      Bulky trees_121: 1304631851
+      Bulky trees_78: -820078127
+      Bulky trees_16: 2007510685
+      Bulky trees_173: 2060054142
+      Bulky trees_35: -667426446
+      Bulky trees_20: 537746550
+      Bulky trees_162: -1256970198
+      Bulky trees_197: 1804605371
+      Bulky trees_178: -1599246501
+      Bulky trees_127: 1645087302
+      Bulky trees_221: -489033863
+      Bulky trees_104: -1503255897
+      Bulky trees_179: 1949457930
+      Bulky trees_149: 75004895
+      Bulky trees_65: 1391888853
+      Bulky trees_206: -1229640976
+      Bulky trees_21: -1758973940
+      Bulky trees_36: -149877652
+      Bulky trees_160: 2070433634
+      Bulky trees_17: -1793719509
+      Bulky trees_49: 808838768
+      Bulky trees_41: 261443597
+      Bulky trees_196: -2084595584
+      Bulky trees_136: -1896958178
+      Bulky trees_185: 428039367
+      Bulky trees_70: 155040148
+      Bulky trees_192: -1354413060
+      Bulky trees_182: 581904841
+      Bulky trees_209: 1415353017
+      Bulky trees_83: -1152910929
+      Bulky trees_191: -258627086
+      Bulky trees_138: 1509478748
+      Bulky trees_67: 96971376
+      Bulky trees_164: -1241804798
+      Bulky trees_27: -1012837580
+      Bulky trees_58: 187351014
+      Bulky trees_92: 1937056782
+      Bulky trees_81: -1088711346
+      Bulky trees_97: -1014844149
+      Bulky trees_133: -745239354
+      Bulky trees_193: -22345932
+      Bulky trees_38: 111887690
+      Bulky trees_188: -96856279
+      Bulky trees_31: 659254726
+      Bulky trees_153: 2098068151
+      Bulky trees_88: 675239612
+      Bulky trees_135: -76396808
+      Bulky trees_43: -1413287921
+      Bulky trees_208: -756864918
+      Bulky trees_210: -495167342
+      Bulky trees_165: -2054910452
+      Bulky trees_63: -248008462
+      Bulky trees_116: -1153106090
+      Bulky trees_105: -1308004784
+      Bulky trees_134: 1664013283
+      Bulky trees_2: 610593302
+      Bulky trees_87: 837484850
+      Bulky trees_213: -2104774339
+      Bulky trees_52: -880993542
+      Bulky trees_177: -1661449436
+      Bulky trees_190: 1945111636
+      Bulky trees_10: 131129863
+      Bulky trees_109: 340506478
+      Bulky trees_169: -585550728
+      Bulky trees_156: 563241275
+      Bulky trees_3: 870001095
+      Bulky trees_51: 338296430
+      Bulky trees_202: -1418415613
+      Bulky trees_4: -242261514
+      Bulky trees_33: 746925204
+      Bulky trees_203: 684996425
+      Bulky trees_37: 808383921
+      Bulky trees_220: 1104272341
+      Bulky trees_6: -1319808317
+      Bulky trees_103: -1335259145
+      Bulky trees_61: -814150511
+      Bulky trees_69: 1820697445
+      Bulky trees_66: 987122494
+      Bulky trees_142: -990433393
+      Bulky trees_159: 1761131084
+      Bulky trees_174: -568427368
+      Bulky trees_94: -64675708
+      Bulky trees_125: -628699015
+      Bulky trees_79: 1259888472
+      Bulky trees_148: -1604722566
+      Bulky trees_130: 1813487631
+      Bulky trees_76: 1716778545
+      Bulky trees_145: 634800768
+      Bulky trees_176: 1684876169
+      Bulky trees_100: -1442817231
+      Bulky trees_9: 1359808645
+      Bulky trees_212: -651949716
+      Bulky trees_7: 76343057
+      Bulky trees_60: -1499772545
+      Bulky trees_151: -1613044464
+      Bulky trees_46: -1986675693
+      Bulky trees_85: -1475853210
+      Bulky trees_39: 2141983091
+      Bulky trees_181: 214566328
+      Bulky trees_155: -55625379
+      Bulky trees_5: -470014738
+      Bulky trees_59: 1445354758
+      Bulky trees_120: 1253151583
+      Bulky trees_90: -1388971820
+      Bulky trees_23: 1864892443
+      Bulky trees_12: 398122590
+      Bulky trees_44: -601555747
+      Bulky trees_152: 724707840
+      Bulky trees_112: 690414248
+      Bulky trees_129: 1444039660
+      Bulky trees_205: -428468112
+      Bulky trees_15: -1175304765
+      Bulky trees_25: 196080205
+      Bulky trees_84: 1640457032
+      Bulky trees_18: -659872584
+      Bulky trees_147: 327482918
+      Bulky trees_186: 218888535
+      Bulky trees_72: 635484248
+      Bulky trees_99: 1167238257
+      Bulky trees_215: -824253357
+      Bulky trees_219: 1308087864
+      Bulky trees_217: 975527065
+      Bulky trees_183: 934868922
+      Bulky trees_0: -254136182
+      Bulky trees_119: 1024725580
+      Bulky trees_194: -1819094328
+      Bulky trees_132: -1107836198
+      Bulky trees_141: 998462410
+      Bulky trees_167: 1501667078
+      Bulky trees_48: 1326535272
+      Bulky trees_96: -895920298
+      Bulky trees_144: -1096459427
+      Bulky trees_80: 747109238
+      Bulky trees_131: -560219125
+      Bulky trees_14: -906522340
+      Bulky trees_11: -202282967
+      Bulky trees_108: -938423515
+      Bulky trees_124: -450329058
+      Bulky trees_170: -263732549
+      Bulky trees_218: 933460061
+      Bulky trees_175: 2115609061
+      Bulky trees_216: -1239168577
+      Bulky trees_163: -244568514
+      Bulky trees_171: 1986567326
+      Bulky trees_54: 2003496115
+      Bulky trees_110: -1440179802
+      Bulky trees_118: 1321093994
+      Bulky trees_137: 2013295252
+      Bulky trees_198: 796592388
+      Bulky trees_26: 1652618673
+      Bulky trees_75: 1732539200
+      Bulky trees_111: -2069187584
+      Bulky trees_139: 1372584562
+      Bulky trees_57: -797885896
+      Bulky trees_93: -1683325333
+      Bulky trees_113: 2085640979
+      Bulky trees_122: 269214375
+      Bulky trees_73: 549351481
+      Bulky trees_154: -525866885
+      Bulky trees_28: -2093842110
+      Bulky trees_82: -1025440156
+      Bulky trees_91: -652183648
+      Bulky trees_101: 201249788
+      Bulky trees_45: 1965086860
+      Bulky trees_32: -630071318
+      Bulky trees_95: -464064382
+      Bulky trees_1: 258464864
+      Bulky trees_107: -578336877
+      Bulky trees_180: 874413594
+      Bulky trees_199: -140258192
+      Bulky trees_64: -769411405
+      Bulky trees_62: 1316660780
+      Bulky trees_19: 1477490631
+      Bulky trees_207: 6819208
+      Bulky trees_195: 559061044
+      Bulky trees_50: -480199900
+      Bulky trees_77: -450801961
+      Bulky trees_140: 1178163697
+      Bulky trees_34: -181311781
+      Bulky trees_30: -64409484
+      Bulky trees_168: -1472992630
+      Bulky trees_146: 1639792850
+      Bulky trees_55: -1204279405
+      Bulky trees_172: -627841353
+      Bulky trees_166: -484385009
+      Bulky trees_117: -402448438
+      Bulky trees_201: -1418273932
+      Bulky trees_161: 783267994
+      Bulky trees_102: 662566361
+      Bulky trees_106: -102449631
+      Bulky trees_89: -212661800
+      Bulky trees_114: -592739512
+      Bulky trees_187: 1539003020
+      Bulky trees_200: 395972701
+      Bulky trees_143: -1828849530
+      Bulky trees_47: 1015476491
+      Bulky trees_22: -739845544
+      Bulky trees_126: -1151822433
+      Bulky trees_71: 1151108127
+      Bulky trees_98: 795423761
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
