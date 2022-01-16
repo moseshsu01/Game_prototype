@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e74bf145713ce4a8ead4c64db859c4c5
-      internalID: 413977724
+      spriteID: 03c3c4de049b6420da5f89a2ccf05f6a
+      internalID: 529170805
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d1736c84d084f8a956b2026f411fe2
-      internalID: -1146732376
+      spriteID: f5be09f4c23bf4b689a2a5a84d0492c3
+      internalID: 1370018875
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a1db507d17994f9dbfc3d8e28ad8c8a
-      internalID: 658971583
+      spriteID: 8869c75eda80d4a99821406a379820bf
+      internalID: -876796261
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee777188276e94044930b51b9f290f76
-      internalID: 1055084153
+      spriteID: 728cb2259bb9543fda2582daae30c082
+      internalID: -536960415
       vertices: []
       indices: 
       edges: []
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e58fdb5dd2a83440cb8574b763021373
-      internalID: 1353324033
+      spriteID: f65d5922442d04fa1b4d67dc3c765f69
+      internalID: 247335489
       vertices: []
       indices: 
       edges: []
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ba4de20e8384aa38451c001908de7e
-      internalID: 1292475952
+      spriteID: 7c974c00cc0db447d93392ba3b8d5948
+      internalID: 1091667533
       vertices: []
       indices: 
       edges: []
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e917ae8694c40de999b12efb11f944
-      internalID: 385959774
+      spriteID: 8f793d36e1d1f45129a0c8977d45a288
+      internalID: 230243707
       vertices: []
       indices: 
       edges: []
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38c3fd11ec13f47c2a62c09d85094835
-      internalID: -1264915373
+      spriteID: 5d238b77d22994577b6c64a2a5a8f6fe
+      internalID: 996009829
       vertices: []
       indices: 
       edges: []
@@ -286,8 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b92b99d7ed51d45aa991eb0c239beca2
-      internalID: 1621626137
+      spriteID: e9bf3d2c7b7c9442ebfbeae3113ca1c9
+      internalID: 566710134
       vertices: []
       indices: 
       edges: []
@@ -307,8 +307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1f5eaae40f14c94bd0624e11dcaf4a
-      internalID: -810406627
+      spriteID: 8495b5b1d2b334989903f3348cf07f9e
+      internalID: 1919333424
       vertices: []
       indices: 
       edges: []
@@ -328,8 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcde47d4b87cd45aead548f15f235588
-      internalID: -436526873
+      spriteID: ab89d9fbb80674bbaba7c566000724e5
+      internalID: -1225824621
       vertices: []
       indices: 
       edges: []
@@ -349,8 +349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c57d7ba79d0194cf58a82501ae9cb207
-      internalID: -1565314162
+      spriteID: 0fac26d0f7f2040eca512c415092898e
+      internalID: -1192836122
       vertices: []
       indices: 
       edges: []
@@ -370,8 +370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3929be54e27c04d9d8445f11ef99c5ec
-      internalID: 77247382
+      spriteID: f4ac5785930394c5eaa20a4f314d0b3a
+      internalID: 155232063
       vertices: []
       indices: 
       edges: []
@@ -391,8 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e4fd9b419e50446593f06b9757f90f7
-      internalID: 1930825786
+      spriteID: e8a111a9cad0c4395bfc385038bf30d1
+      internalID: 120957496
       vertices: []
       indices: 
       edges: []
@@ -412,8 +412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c979898f4b06a4bbc93fdb52d5e5ed41
-      internalID: -937721143
+      spriteID: c751f67c960274a87bbd6ff9d5f864d2
+      internalID: 460004227
       vertices: []
       indices: 
       edges: []
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de78c5d2de17140f7ba7134c96072e81
-      internalID: -1609421650
+      spriteID: 4054058c2ed9c48b3874adf76fd3efc9
+      internalID: -360243249
       vertices: []
       indices: 
       edges: []
@@ -454,8 +454,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca2dc0a17a09e4d64b8032baf07d96dc
-      internalID: 73744864
+      spriteID: 5ca30ff3d258f43c98d1aee4e77a7912
+      internalID: 262100047
       vertices: []
       indices: 
       edges: []
@@ -475,8 +475,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce851296607640beb1dc36b5c4874bd
-      internalID: -1187450646
+      spriteID: dd955506731564e469d40522846d0ea7
+      internalID: -280446616
       vertices: []
       indices: 
       edges: []
@@ -496,8 +496,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915b9b24d1eee41cfa35c6759adc8250
-      internalID: -529585342
+      spriteID: b388fb44803d74235b2bdad9aa10086e
+      internalID: 882955148
       vertices: []
       indices: 
       edges: []
@@ -517,8 +517,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd6952bbc1aab4c1fbf661bed1a8117e
-      internalID: 328744593
+      spriteID: 0dbc4c52ee6fc49eeab465187240d6c5
+      internalID: -1279204593
       vertices: []
       indices: 
       edges: []
@@ -538,8 +538,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d8b740bdfb9e4ceb84f2eec0f1103cf
-      internalID: 939533584
+      spriteID: 8a8b744e424d84d41ae39cd174d80c15
+      internalID: 16844222
       vertices: []
       indices: 
       edges: []
@@ -559,8 +559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24745f62a0cc54fd4aa65d6c759cea2a
-      internalID: -1645997197
+      spriteID: 2b0b7bf3da5a74bbd8786339e3883ee8
+      internalID: 1293104832
       vertices: []
       indices: 
       edges: []
@@ -580,8 +580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baaddbc47366e4e6995ccae9c745120c
-      internalID: -253350703
+      spriteID: 5d6bde45e3ca740159d7bfa319bd4c40
+      internalID: 1673111727
       vertices: []
       indices: 
       edges: []
@@ -601,8 +601,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d21a3600c67a4da6aee3b2aa55e2f6e
-      internalID: -2081876717
+      spriteID: eda11e3782da945c2b6d5cd7101858f7
+      internalID: 1180331989
       vertices: []
       indices: 
       edges: []
@@ -622,8 +622,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0488fd10997f1498abe35f242c582f4e
-      internalID: -655204751
+      spriteID: 1716c22753460481f94f77523dbbfb74
+      internalID: -387074856
       vertices: []
       indices: 
       edges: []
@@ -643,8 +643,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda4bbd9c2cc148a7855e0502cfee081
-      internalID: 865924114
+      spriteID: 5bc19e404672e48c899f54abdd1db2eb
+      internalID: -1040765336
       vertices: []
       indices: 
       edges: []
@@ -664,8 +664,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b247d004d03e64ea8a10c3d606581ced
-      internalID: 1573535242
+      spriteID: bab7d5a273ca844b6ac5d53240121ee3
+      internalID: -1499810046
       vertices: []
       indices: 
       edges: []
@@ -685,8 +685,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0b390c8c51d34918aff2beed0ebdd39
-      internalID: 766839579
+      spriteID: 76acf3d74045148f09f24774d1832ba6
+      internalID: 1345209050
       vertices: []
       indices: 
       edges: []
@@ -706,8 +706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c262e52746014eb3b8b5910c8e942a2
-      internalID: -751441576
+      spriteID: 2575037a6522a40538f8d0a3ec302bec
+      internalID: 615088077
       vertices: []
       indices: 
       edges: []
@@ -716,7 +716,7 @@ TextureImporter:
       name: Ledge tiles_29
       rect:
         serializedVersion: 2
-        x: 42
+        x: 56
         y: 182
         width: 14
         height: 14
@@ -727,8 +727,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fa36574e418f46bc866a7eb6e7ba423
-      internalID: -1658619143
+      spriteID: 7abb2a5e7679744508f0f21d072bac17
+      internalID: -1828612852
       vertices: []
       indices: 
       edges: []
@@ -737,7 +737,7 @@ TextureImporter:
       name: Ledge tiles_30
       rect:
         serializedVersion: 2
-        x: 56
+        x: 70
         y: 182
         width: 14
         height: 14
@@ -748,8 +748,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec053e1fedc545318cb9d2cd3902b66
-      internalID: 1933986224
+      spriteID: 2a5ae9444815943ca9a71eee7f5e73c1
+      internalID: -1820595205
       vertices: []
       indices: 
       edges: []
@@ -758,7 +758,7 @@ TextureImporter:
       name: Ledge tiles_31
       rect:
         serializedVersion: 2
-        x: 70
+        x: 84
         y: 182
         width: 14
         height: 14
@@ -769,8 +769,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a82e70e04bfd45649bea1ef472aa82c
-      internalID: -1094178416
+      spriteID: 8f0628476baa44cb194dcafa957aece8
+      internalID: 230738626
       vertices: []
       indices: 
       edges: []
@@ -779,7 +779,7 @@ TextureImporter:
       name: Ledge tiles_32
       rect:
         serializedVersion: 2
-        x: 84
+        x: 98
         y: 182
         width: 14
         height: 14
@@ -790,8 +790,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af311ca1fac7b4a29aab9c5e29ba4385
-      internalID: -1041950846
+      spriteID: 7f60c727c7f014dd2a3b8fb17b903e5c
+      internalID: -265263838
       vertices: []
       indices: 
       edges: []
@@ -800,7 +800,7 @@ TextureImporter:
       name: Ledge tiles_33
       rect:
         serializedVersion: 2
-        x: 98
+        x: 112
         y: 182
         width: 14
         height: 14
@@ -811,8 +811,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1b77d67283384fc799aecf8b901393b
-      internalID: -1581628583
+      spriteID: b1ec13c1113104e2aa09512b474a17ef
+      internalID: -400392104
       vertices: []
       indices: 
       edges: []
@@ -821,7 +821,7 @@ TextureImporter:
       name: Ledge tiles_34
       rect:
         serializedVersion: 2
-        x: 112
+        x: 126
         y: 182
         width: 14
         height: 14
@@ -832,8 +832,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae0dd905b84b408095b0b834501c843
-      internalID: -127301766
+      spriteID: be5ed192dd05b41ce98c3ff33881c2ae
+      internalID: 66764295
       vertices: []
       indices: 
       edges: []
@@ -842,7 +842,7 @@ TextureImporter:
       name: Ledge tiles_35
       rect:
         serializedVersion: 2
-        x: 126
+        x: 140
         y: 182
         width: 14
         height: 14
@@ -853,8 +853,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f176dc7b146f4e86a6b4febc19879af
-      internalID: -147160524
+      spriteID: 31d1a2b37531e4fb2ade2b54054c4647
+      internalID: -864366006
       vertices: []
       indices: 
       edges: []
@@ -863,7 +863,7 @@ TextureImporter:
       name: Ledge tiles_36
       rect:
         serializedVersion: 2
-        x: 140
+        x: 154
         y: 182
         width: 14
         height: 14
@@ -874,8 +874,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bdcfea4bbebe4419832ce16c03ce5a8
-      internalID: -57651352
+      spriteID: 548bde98260f24725b9c532acdbea477
+      internalID: -422373034
       vertices: []
       indices: 
       edges: []
@@ -884,7 +884,7 @@ TextureImporter:
       name: Ledge tiles_37
       rect:
         serializedVersion: 2
-        x: 154
+        x: 168
         y: 182
         width: 14
         height: 14
@@ -895,8 +895,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b92b3dff4f664a3c816e7ca913516b1
-      internalID: -965567644
+      spriteID: 0469e537ee4fb40c181b9a332f673273
+      internalID: -649887975
       vertices: []
       indices: 
       edges: []
@@ -905,7 +905,7 @@ TextureImporter:
       name: Ledge tiles_38
       rect:
         serializedVersion: 2
-        x: 168
+        x: 182
         y: 182
         width: 14
         height: 14
@@ -916,8 +916,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0fba3c0ecd043169b96e9a39917fb2
-      internalID: -273141294
+      spriteID: a4b2e13c297fd4574bf9497c9dbd85bc
+      internalID: -252795763
       vertices: []
       indices: 
       edges: []
@@ -926,7 +926,7 @@ TextureImporter:
       name: Ledge tiles_39
       rect:
         serializedVersion: 2
-        x: 182
+        x: 196
         y: 182
         width: 14
         height: 14
@@ -937,8 +937,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a132e10705e0e46588102c73a6800f13
-      internalID: 1285166848
+      spriteID: 9889eb026a0c642d5bb02fb6edbc4baa
+      internalID: 507976260
       vertices: []
       indices: 
       edges: []
@@ -947,7 +947,7 @@ TextureImporter:
       name: Ledge tiles_40
       rect:
         serializedVersion: 2
-        x: 196
+        x: 210
         y: 182
         width: 14
         height: 14
@@ -958,8 +958,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bdede6abf622477584948a6cab50d89
-      internalID: 940733942
+      spriteID: 0a675975d52114d8e8c036febe3651ae
+      internalID: 1488709632
       vertices: []
       indices: 
       edges: []
@@ -968,7 +968,7 @@ TextureImporter:
       name: Ledge tiles_41
       rect:
         serializedVersion: 2
-        x: 210
+        x: 238
         y: 182
         width: 14
         height: 14
@@ -979,8 +979,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28aba735024694e6681a46d70b1c1ba6
-      internalID: -1773083180
+      spriteID: 924cee8b5a7784c14bbea009035817f0
+      internalID: 979862980
       vertices: []
       indices: 
       edges: []
@@ -989,7 +989,7 @@ TextureImporter:
       name: Ledge tiles_42
       rect:
         serializedVersion: 2
-        x: 238
+        x: 252
         y: 182
         width: 14
         height: 14
@@ -1000,8 +1000,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e2a51440e84e4e19bf5dc448563aceb
-      internalID: 1593595941
+      spriteID: a203ac45e10c24c09b5d49d9e00d0b2e
+      internalID: -1874310209
       vertices: []
       indices: 
       edges: []
@@ -1010,7 +1010,7 @@ TextureImporter:
       name: Ledge tiles_43
       rect:
         serializedVersion: 2
-        x: 252
+        x: 266
         y: 182
         width: 14
         height: 14
@@ -1021,8 +1021,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6539d569984b4cdeabb54d11ff30e92
-      internalID: 1801615922
+      spriteID: 181aea960635a419d9bab2a3bb9f71b5
+      internalID: 962332735
       vertices: []
       indices: 
       edges: []
@@ -1031,8 +1031,8 @@ TextureImporter:
       name: Ledge tiles_44
       rect:
         serializedVersion: 2
-        x: 266
-        y: 182
+        x: 14
+        y: 168
         width: 14
         height: 14
       alignment: 0
@@ -1042,8 +1042,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a1345f99aad845f69a87701c3a58fc9
-      internalID: 1551478335
+      spriteID: f2a3a2fe15afe49268008db1c18a4219
+      internalID: 1977693440
       vertices: []
       indices: 
       edges: []
@@ -1052,7 +1052,7 @@ TextureImporter:
       name: Ledge tiles_45
       rect:
         serializedVersion: 2
-        x: 14
+        x: 28
         y: 168
         width: 14
         height: 14
@@ -1063,8 +1063,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de928e82914934a0985debcdc3477c4a
-      internalID: 1966503609
+      spriteID: e377c6d80b71d4c04b63e2fe8d5f1bf7
+      internalID: -1219350790
       vertices: []
       indices: 
       edges: []
@@ -1073,7 +1073,7 @@ TextureImporter:
       name: Ledge tiles_46
       rect:
         serializedVersion: 2
-        x: 28
+        x: 42
         y: 168
         width: 14
         height: 14
@@ -1084,8 +1084,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6d779fa4bee4447bae047ca260cb4f
-      internalID: -1342820452
+      spriteID: b224e5bad99444c98ac433068e01cb6c
+      internalID: 1062129234
       vertices: []
       indices: 
       edges: []
@@ -1094,7 +1094,7 @@ TextureImporter:
       name: Ledge tiles_47
       rect:
         serializedVersion: 2
-        x: 42
+        x: 56
         y: 168
         width: 14
         height: 14
@@ -1105,8 +1105,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 681099c84b28344c5bba5c9a148c1986
-      internalID: 490508570
+      spriteID: 166f2cc0083bc422d88fd3ef6f04c300
+      internalID: 1898918082
       vertices: []
       indices: 
       edges: []
@@ -1115,7 +1115,7 @@ TextureImporter:
       name: Ledge tiles_48
       rect:
         serializedVersion: 2
-        x: 56
+        x: 70
         y: 168
         width: 14
         height: 14
@@ -1126,8 +1126,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d91be6ae9d04727ba2cba58eb6779d
-      internalID: 1701635946
+      spriteID: 5f4b9b5027ca942bfabaf444a39ed2a6
+      internalID: 1951657682
       vertices: []
       indices: 
       edges: []
@@ -1136,7 +1136,7 @@ TextureImporter:
       name: Ledge tiles_49
       rect:
         serializedVersion: 2
-        x: 70
+        x: 84
         y: 168
         width: 14
         height: 14
@@ -1147,8 +1147,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3c292b9d60443d49bfead2724ff467
-      internalID: -320915916
+      spriteID: a626f5507c6dd41bb844f989612df7c8
+      internalID: 1414691188
       vertices: []
       indices: 
       edges: []
@@ -1157,7 +1157,7 @@ TextureImporter:
       name: Ledge tiles_50
       rect:
         serializedVersion: 2
-        x: 84
+        x: 98
         y: 168
         width: 14
         height: 14
@@ -1168,8 +1168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954a20b91d551464693b8109051e59fc
-      internalID: 1049195130
+      spriteID: 4fb4223dcbbd5408987be70d86025ef8
+      internalID: 1032737365
       vertices: []
       indices: 
       edges: []
@@ -1178,27 +1178,6 @@ TextureImporter:
       name: Ledge tiles_51
       rect:
         serializedVersion: 2
-        x: 98
-        y: 168
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 663b7093e7d464f338816e46fe9d4011
-      internalID: -932960744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_52
-      rect:
-        serializedVersion: 2
         x: 112
         y: 168
         width: 14
@@ -1210,14 +1189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c949e36c18b6148b8a10398e435a7967
-      internalID: -440341863
+      spriteID: 0c7d23c08666849218a806478b6688a0
+      internalID: 372270925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_53
+      name: Ledge tiles_52
       rect:
         serializedVersion: 2
         x: 126
@@ -1231,14 +1210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5274708b121459e8630e5d1d07ce97
-      internalID: -70804570
+      spriteID: dd98f74b880ec43e0b8c27191ee00955
+      internalID: -174977144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_54
+      name: Ledge tiles_53
       rect:
         serializedVersion: 2
         x: 140
@@ -1252,14 +1231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6e782b0383ff4971a5459cf3aa125e7
-      internalID: 647951113
+      spriteID: d01ad8ec716734ce2bc94ea23eee8c12
+      internalID: -2006098329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_55
+      name: Ledge tiles_54
       rect:
         serializedVersion: 2
         x: 154
@@ -1273,14 +1252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8622dee3c744df292a4a5653150d59
-      internalID: 918701295
+      spriteID: 349d3509cf25e4a98958b77fcec0958a
+      internalID: 323632375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_56
+      name: Ledge tiles_55
       rect:
         serializedVersion: 2
         x: 168
@@ -1294,14 +1273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffab002d7b5e74815b46baea8dffaa53
-      internalID: -539823083
+      spriteID: c6ef845add46b4b6cbbcd53dc7ac3de1
+      internalID: 573280545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_57
+      name: Ledge tiles_56
       rect:
         serializedVersion: 2
         x: 182
@@ -1315,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6907c275321f400dbd5c7f1ab743a29
-      internalID: -13183107
+      spriteID: 0492d18af20b34f48a1099f6a0203cb4
+      internalID: -352212347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_58
+      name: Ledge tiles_57
       rect:
         serializedVersion: 2
         x: 196
@@ -1336,14 +1315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88f99d37972f5458c90407d509854a52
-      internalID: 11594589
+      spriteID: 96da51b0a2692435ca99046ed1f2b935
+      internalID: 2080153038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_59
+      name: Ledge tiles_58
       rect:
         serializedVersion: 2
         x: 210
@@ -1357,14 +1336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46d2bf0a69e9d4d5481df54e33158b9d
-      internalID: -244940363
+      spriteID: baed776ec60b143f5ab37b0d06cec7e3
+      internalID: 461422394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_60
+      name: Ledge tiles_59
       rect:
         serializedVersion: 2
         x: 238
@@ -1378,14 +1357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb4d26af4fd504ee6b4a22a729cc0c4e
-      internalID: -1365259394
+      spriteID: eb21165550efa460ba9eb29fae54ea55
+      internalID: -1058757738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_61
+      name: Ledge tiles_60
       rect:
         serializedVersion: 2
         x: 252
@@ -1399,14 +1378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4310b9a4e609640be902b15c4783e158
-      internalID: -1749166248
+      spriteID: ffb4ba6e8acd34f688a070ddac01c63a
+      internalID: 755974753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_62
+      name: Ledge tiles_61
       rect:
         serializedVersion: 2
         x: 266
@@ -1420,14 +1399,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 788e2d72bccc74b448349d81a2290939
-      internalID: 1409715694
+      spriteID: 72138d30bccf7402cbbf6ca3c8657b99
+      internalID: 738230608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_63
+      name: Ledge tiles_62
       rect:
         serializedVersion: 2
         x: 14
@@ -1441,14 +1420,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b68ed26ad5bf42a8ac28af358eb1a59
-      internalID: -284055025
+      spriteID: ee5d1a15b0f43476c9a8109b34efec44
+      internalID: -96136734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_64
+      name: Ledge tiles_63
       rect:
         serializedVersion: 2
         x: 28
@@ -1462,14 +1441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16f31b2cb3424ec9b35ccd90c0cc27e
-      internalID: 435068067
+      spriteID: 87eae96b39c934e948c4a3b655d8ff84
+      internalID: 1604995418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_65
+      name: Ledge tiles_64
       rect:
         serializedVersion: 2
         x: 42
@@ -1483,14 +1462,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ae77013b30ec406db3407254bd1f6a2
-      internalID: -1204911401
+      spriteID: 88674998e0d6d49b29312e3b5f7ca1e4
+      internalID: 245511417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_66
+      name: Ledge tiles_65
       rect:
         serializedVersion: 2
         x: 56
@@ -1504,14 +1483,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48558ae5b32714845ac2284affb7715a
-      internalID: -1262083631
+      spriteID: 7747cc0fbc27a4c568338586e3c58c61
+      internalID: 291154224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_67
+      name: Ledge tiles_66
       rect:
         serializedVersion: 2
         x: 70
@@ -1525,14 +1504,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c26bc24893b4246a0dfe85a85b4919
-      internalID: -1971485970
+      spriteID: 18b8d2e678a3a4230ba4a468705a02eb
+      internalID: -13467635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_68
+      name: Ledge tiles_67
       rect:
         serializedVersion: 2
         x: 84
@@ -1546,14 +1525,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec6750b371710494eb2f36dfecbc2528
-      internalID: -894975239
+      spriteID: 2b5d7a1a9135f4b0b9be8f9db4d0a53b
+      internalID: -1520316233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_69
+      name: Ledge tiles_68
       rect:
         serializedVersion: 2
         x: 98
@@ -1567,14 +1546,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d591678ab396140449c43a06cb59c581
-      internalID: 1145984650
+      spriteID: e4320415e68cd48fabf3d535ade30f22
+      internalID: -1159592256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_70
+      name: Ledge tiles_69
       rect:
         serializedVersion: 2
         x: 112
@@ -1588,14 +1567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2397934f6d7de46948fc26053eb051b5
-      internalID: 1517278699
+      spriteID: fcda2c6588df14ff296e237b0eab05f5
+      internalID: -519218663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_71
+      name: Ledge tiles_70
       rect:
         serializedVersion: 2
         x: 126
@@ -1609,14 +1588,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26783c301e3da484f9c18e2bb086b46f
-      internalID: -1555083957
+      spriteID: eb730780b72be459fb13a6291ed9b92e
+      internalID: 74037423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_72
+      name: Ledge tiles_71
       rect:
         serializedVersion: 2
         x: 140
@@ -1630,14 +1609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb761ac7f13fd4adda1d96e17248fe20
-      internalID: -2091555634
+      spriteID: e661d8033ab82439ea2900c77a547e18
+      internalID: 958685236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_73
+      name: Ledge tiles_72
       rect:
         serializedVersion: 2
         x: 154
@@ -1651,14 +1630,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbaa8a05af65f4690b2c14385c59c771
-      internalID: -1890185677
+      spriteID: 262ee394177fb4787a97ffac680ff1be
+      internalID: -817562994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_74
+      name: Ledge tiles_73
       rect:
         serializedVersion: 2
         x: 168
@@ -1672,14 +1651,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b014214cfda9a43f4bf2e093f6dfecd1
-      internalID: -1712094789
+      spriteID: f7f0e5b8164c641bdb709a089b318d50
+      internalID: -1415032622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_75
+      name: Ledge tiles_74
       rect:
         serializedVersion: 2
         x: 182
@@ -1693,14 +1672,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26c8aedab60ee4236b071ac925ca1783
-      internalID: 518802621
+      spriteID: bcd3a294d2bdf4f6481885852359b5f8
+      internalID: -1890242092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_76
+      name: Ledge tiles_75
       rect:
         serializedVersion: 2
         x: 196
@@ -1714,14 +1693,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8ae210dc233487cad9438f2989fbe6
-      internalID: -1318562909
+      spriteID: fe53d99fb99c64fe8803bc1cd2f3566d
+      internalID: -1615242435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_77
+      name: Ledge tiles_76
       rect:
         serializedVersion: 2
         x: 210
@@ -1735,14 +1714,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1dce4e01125a46d8bc40d798f50af61
-      internalID: -1421114174
+      spriteID: d00083ebe018c40199b534b498dc5d7a
+      internalID: -184634893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_78
+      name: Ledge tiles_77
       rect:
         serializedVersion: 2
         x: 238
@@ -1756,14 +1735,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21ca99aad545b4ad49595723064dcf43
-      internalID: -1052628429
+      spriteID: 096168371d3cd474885a5fe60b9db968
+      internalID: 587908337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_79
+      name: Ledge tiles_78
       rect:
         serializedVersion: 2
         x: 252
@@ -1777,14 +1756,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b22bc4c6b3e84ce287bda61dbad4161
-      internalID: -709136478
+      spriteID: 29649785f4fc84866bb87ce0b85be1f6
+      internalID: -295813664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_80
+      name: Ledge tiles_79
       rect:
         serializedVersion: 2
         x: 266
@@ -1798,14 +1777,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76f2da9462761413c9587c5b7bd71b1b
-      internalID: 1228881302
+      spriteID: 6a1be5d6abfe34c5d81aee6b9497a075
+      internalID: -816489348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_81
+      name: Ledge tiles_80
       rect:
         serializedVersion: 2
         x: 98
@@ -1819,14 +1798,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: affc71a0dc14c477bbc97e1580513e44
-      internalID: -770915424
+      spriteID: dde4a4f684d2346528b8e05f7fe24329
+      internalID: -278718396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_82
+      name: Ledge tiles_81
       rect:
         serializedVersion: 2
         x: 112
@@ -1840,14 +1819,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ddffa5f059a4b45b2cd1cd04dc12c7
-      internalID: 1549333650
+      spriteID: a08e45e364e4e4e8f89d298a28252875
+      internalID: 671372605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_83
+      name: Ledge tiles_82
       rect:
         serializedVersion: 2
         x: 126
@@ -1861,14 +1840,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b6444bfb605d403180ba08565238f6e
-      internalID: -771886687
+      spriteID: e8890e158f4e040f5b5d8dcc0803e15a
+      internalID: 1943736551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_84
+      name: Ledge tiles_83
       rect:
         serializedVersion: 2
         x: 154
@@ -1882,14 +1861,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9387cf1c27cd4aca9ea5f86958ca351
-      internalID: -4138239
+      spriteID: 5c80227efe00d4aa1a5012d272e7dbe0
+      internalID: 2086422892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_85
+      name: Ledge tiles_84
       rect:
         serializedVersion: 2
         x: 168
@@ -1903,14 +1882,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93383c77d200c44f88d6503e402ef671
-      internalID: 1526896292
+      spriteID: 5aa0e2db412644b2191fc24002baf88d
+      internalID: -1166917440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_86
+      name: Ledge tiles_85
       rect:
         serializedVersion: 2
         x: 182
@@ -1924,14 +1903,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4984906a39d984f70a8bd1617e2ddb1d
-      internalID: -386026776
+      spriteID: 81e76dcd5fa0f4f0c9890e64c41a035b
+      internalID: 1640627773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_87
+      name: Ledge tiles_86
       rect:
         serializedVersion: 2
         x: 196
@@ -1945,8 +1924,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c899d1e97375d43a8a5af17e48fcd3bb
-      internalID: -35882145
+      spriteID: 59528de332fc5417ba05fad5f71ed461
+      internalID: 2082089554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_87
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 140
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db3a0817bceb460b97efb679187d2b3
+      internalID: 2087547461
       vertices: []
       indices: 
       edges: []
@@ -1955,7 +1955,7 @@ TextureImporter:
       name: Ledge tiles_88
       rect:
         serializedVersion: 2
-        x: 238
+        x: 252
         y: 140
         width: 14
         height: 14
@@ -1966,8 +1966,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3adf21b7f499643e4b0d9428940954f1
-      internalID: -314514203
+      spriteID: b7d76b6ad888140ee818e4f87784d616
+      internalID: 899595075
       vertices: []
       indices: 
       edges: []
@@ -1976,7 +1976,7 @@ TextureImporter:
       name: Ledge tiles_89
       rect:
         serializedVersion: 2
-        x: 252
+        x: 266
         y: 140
         width: 14
         height: 14
@@ -1987,8 +1987,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86cc4be245e094cec865d8b24e71006b
-      internalID: 1303021700
+      spriteID: 2fea864675c454aaf9008e9fbe5c7cf0
+      internalID: 1677805253
       vertices: []
       indices: 
       edges: []
@@ -1997,8 +1997,8 @@ TextureImporter:
       name: Ledge tiles_90
       rect:
         serializedVersion: 2
-        x: 266
-        y: 140
+        x: 14
+        y: 126
         width: 14
         height: 14
       alignment: 0
@@ -2008,8 +2008,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a6955681227420fa405b64da08112a
-      internalID: -962775783
+      spriteID: d51bc1c11bc914d229134892d91eedf3
+      internalID: 1958879919
       vertices: []
       indices: 
       edges: []
@@ -2018,7 +2018,7 @@ TextureImporter:
       name: Ledge tiles_91
       rect:
         serializedVersion: 2
-        x: 14
+        x: 28
         y: 126
         width: 14
         height: 14
@@ -2029,8 +2029,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e84df054922444c2acd058633eeaea5
-      internalID: -978065694
+      spriteID: b44a7b014189644529cd09d6a1e75f94
+      internalID: 1732106675
       vertices: []
       indices: 
       edges: []
@@ -2039,7 +2039,7 @@ TextureImporter:
       name: Ledge tiles_92
       rect:
         serializedVersion: 2
-        x: 28
+        x: 42
         y: 126
         width: 14
         height: 14
@@ -2050,8 +2050,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c2b166d1fe643529817862c86326f7
-      internalID: 692166909
+      spriteID: 78d17a8f2ec1e4dbab89550b49731cc6
+      internalID: -1900048185
       vertices: []
       indices: 
       edges: []
@@ -2060,7 +2060,7 @@ TextureImporter:
       name: Ledge tiles_93
       rect:
         serializedVersion: 2
-        x: 42
+        x: 56
         y: 126
         width: 14
         height: 14
@@ -2071,8 +2071,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae1ff6f34db8f40ba85905834ced8196
-      internalID: 1939078240
+      spriteID: a9fa521adb80544249a85ae5e445c8ef
+      internalID: 2070400645
       vertices: []
       indices: 
       edges: []
@@ -2081,7 +2081,7 @@ TextureImporter:
       name: Ledge tiles_94
       rect:
         serializedVersion: 2
-        x: 56
+        x: 70
         y: 126
         width: 14
         height: 14
@@ -2092,8 +2092,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1681db2259ccd46e2bbe4b4c54fe26bc
-      internalID: 1630572903
+      spriteID: 43aa4fe6990cb4c2d9d7a29d8b952af3
+      internalID: -1826599284
       vertices: []
       indices: 
       edges: []
@@ -2102,7 +2102,7 @@ TextureImporter:
       name: Ledge tiles_95
       rect:
         serializedVersion: 2
-        x: 70
+        x: 98
         y: 126
         width: 14
         height: 14
@@ -2113,8 +2113,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c945ccba6e543d191fa6d851e59460
-      internalID: -456909117
+      spriteID: 1b42eeed9b3a54cc2b529ab77ed1f60f
+      internalID: -2069503895
       vertices: []
       indices: 
       edges: []
@@ -2123,7 +2123,7 @@ TextureImporter:
       name: Ledge tiles_96
       rect:
         serializedVersion: 2
-        x: 98
+        x: 112
         y: 126
         width: 14
         height: 14
@@ -2134,8 +2134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 957578d06d94e451a83392e8d71e9e63
-      internalID: -649796508
+      spriteID: 510d5ec9e87df458e85265d9a51e1f6a
+      internalID: -451377117
       vertices: []
       indices: 
       edges: []
@@ -2144,27 +2144,6 @@ TextureImporter:
       name: Ledge tiles_97
       rect:
         serializedVersion: 2
-        x: 112
-        y: 126
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89ea6791574274dad939c071c1a6558a
-      internalID: -1155205384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_98
-      rect:
-        serializedVersion: 2
         x: 126
         y: 126
         width: 14
@@ -2176,14 +2155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56458fbd6522493faf2ecd5faf35c03
-      internalID: -177761661
+      spriteID: a6faae28d388042c399ee851707a2adf
+      internalID: -319423545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_99
+      name: Ledge tiles_98
       rect:
         serializedVersion: 2
         x: 238
@@ -2197,14 +2176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93e8fd07446df4c95bb563369e6d2bdb
-      internalID: -1777742511
+      spriteID: 5394fdfd2b34a40beb83a68e3751ecc9
+      internalID: 136338742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_100
+      name: Ledge tiles_99
       rect:
         serializedVersion: 2
         x: 252
@@ -2218,14 +2197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8486c1c852194770925da3e03950114
-      internalID: -596703751
+      spriteID: 269a362ff152e43a1b2fef0a9df75d8e
+      internalID: -406225271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_101
+      name: Ledge tiles_100
       rect:
         serializedVersion: 2
         x: 266
@@ -2239,14 +2218,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04dcd1522627849ec81a14af7c37a727
-      internalID: 1612046713
+      spriteID: 74fc6ac4449454cf6b2b116b1db0c56a
+      internalID: -1878662160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_101
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2990e41ac2a3644909a73625d070c61c
+      internalID: -1911294325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Ledge tiles_102
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4839a65e8224044b17e7040359ccef
+      internalID: 1486518782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_103
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e30c0b3e68674c52b1a7ae7b2ad39e7
+      internalID: -822083412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_104
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d5d855fd364526b8ca0d0a9d039b0
+      internalID: 1859379742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_105
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821fd6df2d4004f40bfcd8c4f07bceb0
+      internalID: -1792030155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_106
       rect:
         serializedVersion: 2
         x: 98
@@ -2260,14 +2344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efdfe5d2577fc473e93a718904bf7c71
-      internalID: 1575417493
+      spriteID: 2f51ee5c08f924333a34335b2a5b83da
+      internalID: 1084973647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_103
+      name: Ledge tiles_107
       rect:
         serializedVersion: 2
         x: 112
@@ -2281,14 +2365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfd8952ab008143cb8d76053f85f0078
-      internalID: -1399483796
+      spriteID: 459b595eec3604ff391d1b5f4f61a7fa
+      internalID: -2594519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ledge tiles_104
+      name: Ledge tiles_108
       rect:
         serializedVersion: 2
         x: 126
@@ -2302,92 +2386,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d9978b511b084b8fb91b175f78fdea5
-      internalID: 1189560790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_105
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 112
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30b2a11875f36492ab46852ca6eb147a
-      internalID: -1578728344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_106
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 112
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 099cc666140144b4d9e1bed0f896b1b9
-      internalID: 536203343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_107
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 112
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0639c8e9d00874ad6b7d4834ff6e88b5
-      internalID: 361992268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_108
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 98
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c15216c3a5af04be69601116a6311b86
-      internalID: -1680197022
+      spriteID: 44533a6432dfd409a8b538b7fe9b4bc2
+      internalID: -581480062
       vertices: []
       indices: 
       edges: []
@@ -2396,8 +2396,8 @@ TextureImporter:
       name: Ledge tiles_109
       rect:
         serializedVersion: 2
-        x: 28
-        y: 98
+        x: 140
+        y: 112
         width: 14
         height: 14
       alignment: 0
@@ -2407,8 +2407,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a066180509a524cb79ccc53ecb8525ad
-      internalID: -790410395
+      spriteID: 01a9c01a9e7334468a0f1388ba342bb8
+      internalID: -1421514430
       vertices: []
       indices: 
       edges: []
@@ -2417,8 +2417,8 @@ TextureImporter:
       name: Ledge tiles_110
       rect:
         serializedVersion: 2
-        x: 42
-        y: 98
+        x: 154
+        y: 112
         width: 14
         height: 14
       alignment: 0
@@ -2428,8 +2428,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0278761e3f032418dbfa261914616060
-      internalID: -325926717
+      spriteID: 8bc1ef4bdb6ce470faf77c2f8956199c
+      internalID: 1944011950
       vertices: []
       indices: 
       edges: []
@@ -2438,8 +2438,8 @@ TextureImporter:
       name: Ledge tiles_111
       rect:
         serializedVersion: 2
-        x: 56
-        y: 98
+        x: 196
+        y: 112
         width: 14
         height: 14
       alignment: 0
@@ -2449,8 +2449,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107fc45d4b6ca4246ae2fe8984ef573d
-      internalID: 784903215
+      spriteID: 891b3e39a576b44b98b1f57961c8e4e0
+      internalID: -1941084479
       vertices: []
       indices: 
       edges: []
@@ -2459,7 +2459,91 @@ TextureImporter:
       name: Ledge tiles_112
       rect:
         serializedVersion: 2
-        x: 70
+        x: 210
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7e72459c49845c88135f6e72d17e04
+      internalID: -2069220726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_113
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e795aead3d4409683e500668d3faad
+      internalID: 1138894360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_114
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83289c7de21394a7081ad4c10cd6e4d6
+      internalID: -1730734810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_115
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b5ddf4f9e3849e78242258feb36a4f
+      internalID: -1249118471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_116
+      rect:
+        serializedVersion: 2
+        x: 140
         y: 98
         width: 14
         height: 14
@@ -2470,92 +2554,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c85ac494c84914d0ca3fb28387dd4c13
-      internalID: 1087523252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_113
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 84
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9fd9887ed92a46a9ad83433704d06f8
-      internalID: -1266635437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_114
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 84
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91bf733513a9f43909cbd0b0cde92eeb
-      internalID: -1282700872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_115
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 84
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 587edb09705464956b6048c8eead4320
-      internalID: -800221642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_116
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 84
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a5ea4ed3f94d4e60893f633278b5098
-      internalID: 211333313
+      spriteID: 56a19c0a4d29849638670c2685500b51
+      internalID: 705955602
       vertices: []
       indices: 
       edges: []
@@ -2564,8 +2564,8 @@ TextureImporter:
       name: Ledge tiles_117
       rect:
         serializedVersion: 2
-        x: 70
-        y: 84
+        x: 154
+        y: 98
         width: 14
         height: 14
       alignment: 0
@@ -2575,8 +2575,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 434c41f3376f445268bbdd125c763fb3
-      internalID: 1951665228
+      spriteID: e1f9cd299c6304943bd6db231bcd435c
+      internalID: -127349055
       vertices: []
       indices: 
       edges: []
@@ -2585,8 +2585,8 @@ TextureImporter:
       name: Ledge tiles_118
       rect:
         serializedVersion: 2
-        x: 238
-        y: 84
+        x: 168
+        y: 98
         width: 14
         height: 14
       alignment: 0
@@ -2596,8 +2596,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 034a631f4d8c640569e21abfc3b816f6
-      internalID: -526942746
+      spriteID: ad6a21f61e678459ea2a644311817dd9
+      internalID: -849107020
       vertices: []
       indices: 
       edges: []
@@ -2606,8 +2606,8 @@ TextureImporter:
       name: Ledge tiles_119
       rect:
         serializedVersion: 2
-        x: 252
-        y: 84
+        x: 182
+        y: 98
         width: 14
         height: 14
       alignment: 0
@@ -2617,8 +2617,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ed4db576cf4d45bc9b8912891dd1df5
-      internalID: -1241328892
+      spriteID: 00ad7599710b84e8982720165bca89d9
+      internalID: -347620593
       vertices: []
       indices: 
       edges: []
@@ -2627,7 +2627,112 @@ TextureImporter:
       name: Ledge tiles_120
       rect:
         serializedVersion: 2
+        x: 196
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5113240c14949148161a7d2347aa21
+      internalID: -451151902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_121
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb193b2cc451d4e4dbcfda33419939fb
+      internalID: -1719275961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_122
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2004f08d7181643cd9020259bc3bf5d4
+      internalID: -1252508177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_123
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8480ceb4502a04ed2ac8edea9c8873ff
+      internalID: 868262310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_124
+      rect:
+        serializedVersion: 2
         x: 266
+        y: 98
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e7b1d6018a54507be3dca370b3861b
+      internalID: -751045534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_125
+      rect:
+        serializedVersion: 2
+        x: 154
         y: 84
         width: 14
         height: 14
@@ -2638,113 +2743,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e249d02c4c4144429b82b0c52bc751e
-      internalID: -1862848356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_121
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 70
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9e6c46f62bd0450690d1b7bc4815474
-      internalID: 1302078157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_122
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 70
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b05c39f8567b49089043437d4c53feb
-      internalID: -168805212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_123
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 70
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94950206f449746169932d9603529031
-      internalID: -125726364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_124
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 56
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b16f008926d5a4cf5b374cbe8464b83f
-      internalID: 1837439220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ledge tiles_125
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 56
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c70faad8a9354db5941fe648a897fbf
-      internalID: 664475186
+      spriteID: ef047d6489209445b835a07bbbb92299
+      internalID: -705616078
       vertices: []
       indices: 
       edges: []
@@ -2753,6 +2753,174 @@ TextureImporter:
       name: Ledge tiles_126
       rect:
         serializedVersion: 2
+        x: 168
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c9becbc96e4906b92b120a0c4b76e
+      internalID: -764110049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_127
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ea157d1304a44a9990cd6c5b3fdb72
+      internalID: 379599084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_128
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 84
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d429182583b4744bb995e4c7657036d2
+      internalID: -690909160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_129
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 70
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd60770aa12741c89700a1f1afb1386
+      internalID: 1152293458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_130
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 70
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652185915773641129716274369243fc
+      internalID: 505712378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_131
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 70
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1728dd846228347a28bea3686a5f7b4b
+      internalID: 1231680159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_132
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7db2c0a7c48a4d6dbd7e1642e77f4ff
+      internalID: -48619160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_133
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 56
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f963e1ce98d4f62bd07963893d61f8
+      internalID: -835072199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_134
+      rect:
+        serializedVersion: 2
         x: 266
         y: 56
         width: 14
@@ -2764,8 +2932,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d5f96eca9d9340e999d9f995a29d1ff
-      internalID: -1191161605
+      spriteID: 425109ac1774545208b1cb921fdb2e43
+      internalID: -670390628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_135
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14276284ce94c77826bacb4582e915
+      internalID: -317105804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_136
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67d1e050a5c741938fdd54e810e158a
+      internalID: 1822278267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledge tiles_137
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 42
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dc4029506734708a5ee6ae2fd55f4f
+      internalID: -4597361
       vertices: []
       indices: 
       edges: []
@@ -2781,133 +3012,144 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ledge tiles_23: -2081876717
-      Ledge tiles_85: 1526896292
-      Ledge tiles_109: -790410395
-      Ledge tiles_101: 1612046713
-      Ledge tiles_36: -57651352
-      Ledge tiles_2: 658971583
-      Ledge tiles_37: -965567644
-      Ledge tiles_8: 1621626137
-      Ledge tiles_1: -1146732376
-      Ledge tiles_114: -1282700872
-      Ledge tiles_28: -751441576
-      Ledge tiles_3: 1055084153
-      Ledge tiles_111: 784903215
-      Ledge tiles_63: -284055025
-      Ledge tiles_93: 1939078240
-      Ledge tiles_107: 361992268
-      Ledge tiles_90: -962775783
-      Ledge tiles_103: -1399483796
-      Ledge tiles_99: -1777742511
-      Ledge tiles_61: -1749166248
-      Ledge tiles_110: -325926717
-      Ledge tiles_57: -13183107
-      Ledge tiles_119: -1241328892
-      Ledge tiles_81: -770915424
-      Ledge tiles_77: -1421114174
-      Ledge tiles_70: 1517278699
-      Ledge tiles_52: -440341863
-      Ledge tiles_117: 1951665228
-      Ledge tiles_29: -1658619143
-      Ledge tiles_47: 490508570
-      Ledge tiles_104: 1189560790
-      Ledge tiles_76: -1318562909
-      Ledge tiles_75: 518802621
-      Ledge tiles_100: -596703751
-      Ledge tiles_80: 1228881302
-      Ledge tiles_25: 865924114
-      Ledge tiles_106: 536203343
-      Ledge tiles_126: -1191161605
-      Ledge tiles_97: -1155205384
-      Ledge tiles_6: 385959774
-      Ledge tiles_87: -35882145
-      Ledge tiles_94: 1630572903
-      Ledge tiles_123: -125726364
-      Ledge tiles_79: -709136478
-      Ledge tiles_122: -168805212
-      Ledge tiles_41: -1773083180
-      Ledge tiles_44: 1551478335
-      Ledge tiles_53: -70804570
-      Ledge tiles_40: 940733942
-      Ledge tiles_48: 1701635946
-      Ledge tiles_39: 1285166848
-      Ledge tiles_116: 211333313
-      Ledge tiles_68: -894975239
-      Ledge tiles_7: -1264915373
-      Ledge tiles_31: -1094178416
-      Ledge tiles_91: -978065694
-      Ledge tiles_96: -649796508
-      Ledge tiles_4: 1353324033
-      Ledge tiles_33: -1581628583
-      Ledge tiles_16: 73744864
-      Ledge tiles_11: -1565314162
-      Ledge tiles_82: 1549333650
-      Ledge tiles_27: 766839579
-      Ledge tiles_55: 918701295
-      Ledge tiles_73: -1890185677
-      Ledge tiles_38: -273141294
-      Ledge tiles_42: 1593595941
-      Ledge tiles_22: -253350703
-      Ledge tiles_118: -526942746
-      Ledge tiles_72: -2091555634
-      Ledge tiles_49: -320915916
-      Ledge tiles_98: -177761661
-      Ledge tiles_51: -932960744
-      Ledge tiles_34: -127301766
-      Ledge tiles_45: 1966503609
-      Ledge tiles_10: -436526873
-      Ledge tiles_124: 1837439220
-      Ledge tiles_18: -529585342
-      Ledge tiles_54: 647951113
-      Ledge tiles_24: -655204751
-      Ledge tiles_95: -456909117
-      Ledge tiles_12: 77247382
-      Ledge tiles_125: 664475186
-      Ledge tiles_113: -1266635437
-      Ledge tiles_89: 1303021700
-      Ledge tiles_92: 692166909
-      Ledge tiles_88: -314514203
-      Ledge tiles_78: -1052628429
-      Ledge tiles_120: -1862848356
-      Ledge tiles_71: -1555083957
-      Ledge tiles_102: 1575417493
-      Ledge tiles_60: -1365259394
-      Ledge tiles_50: 1049195130
-      Ledge tiles_84: -4138239
-      Ledge tiles_13: 1930825786
-      Ledge tiles_15: -1609421650
-      Ledge tiles_5: 1292475952
-      Ledge tiles_59: -244940363
-      Ledge tiles_86: -386026776
-      Ledge tiles_108: -1680197022
-      Ledge tiles_56: -539823083
-      Ledge tiles_115: -800221642
-      Ledge tiles_74: -1712094789
-      Ledge tiles_35: -147160524
-      Ledge tiles_43: 1801615922
-      Ledge tiles_66: -1262083631
-      Ledge tiles_67: -1971485970
-      Ledge tiles_19: 328744593
-      Ledge tiles_26: 1573535242
-      Ledge tiles_105: -1578728344
-      Ledge tiles_14: -937721143
-      Ledge tiles_58: 11594589
-      Ledge tiles_62: 1409715694
-      Ledge tiles_121: 1302078157
-      Ledge tiles_64: 435068067
-      Ledge tiles_69: 1145984650
-      Ledge tiles_30: 1933986224
-      Ledge tiles_65: -1204911401
-      Ledge tiles_17: -1187450646
-      Ledge tiles_0: 413977724
-      Ledge tiles_21: -1645997197
-      Ledge tiles_83: -771886687
-      Ledge tiles_32: -1041950846
-      Ledge tiles_9: -810406627
-      Ledge tiles_46: -1342820452
-      Ledge tiles_20: 939533584
-      Ledge tiles_112: 1087523252
+      Ledge tiles_23: 1180331989
+      Ledge tiles_85: 1640627773
+      Ledge tiles_109: -1421514430
+      Ledge tiles_101: -1911294325
+      Ledge tiles_36: -422373034
+      Ledge tiles_2: -876796261
+      Ledge tiles_37: -649887975
+      Ledge tiles_8: 566710134
+      Ledge tiles_1: 1370018875
+      Ledge tiles_114: -1730734810
+      Ledge tiles_127: 379599084
+      Ledge tiles_28: 615088077
+      Ledge tiles_3: -536960415
+      Ledge tiles_111: -1941084479
+      Ledge tiles_63: 1604995418
+      Ledge tiles_93: 2070400645
+      Ledge tiles_107: -2594519
+      Ledge tiles_90: 1958879919
+      Ledge tiles_103: -822083412
+      Ledge tiles_99: -406225271
+      Ledge tiles_61: 738230608
+      Ledge tiles_110: 1944011950
+      Ledge tiles_57: 2080153038
+      Ledge tiles_119: -347620593
+      Ledge tiles_81: 671372605
+      Ledge tiles_77: 587908337
+      Ledge tiles_70: 74037423
+      Ledge tiles_52: -174977144
+      Ledge tiles_117: -127349055
+      Ledge tiles_29: -1828612852
+      Ledge tiles_47: 1898918082
+      Ledge tiles_104: 1859379742
+      Ledge tiles_76: -184634893
+      Ledge tiles_75: -1615242435
+      Ledge tiles_100: -1878662160
+      Ledge tiles_131: 1231680159
+      Ledge tiles_80: -278718396
+      Ledge tiles_25: -1040765336
+      Ledge tiles_106: 1084973647
+      Ledge tiles_126: -764110049
+      Ledge tiles_137: -4597361
+      Ledge tiles_97: -319423545
+      Ledge tiles_6: 230243707
+      Ledge tiles_87: 2087547461
+      Ledge tiles_94: -1826599284
+      Ledge tiles_123: 868262310
+      Ledge tiles_79: -816489348
+      Ledge tiles_122: -1252508177
+      Ledge tiles_41: 979862980
+      Ledge tiles_44: 1977693440
+      Ledge tiles_53: -2006098329
+      Ledge tiles_40: 1488709632
+      Ledge tiles_48: 1951657682
+      Ledge tiles_39: 507976260
+      Ledge tiles_116: 705955602
+      Ledge tiles_68: -1159592256
+      Ledge tiles_7: 996009829
+      Ledge tiles_31: 230738626
+      Ledge tiles_91: 1732106675
+      Ledge tiles_96: -451377117
+      Ledge tiles_4: 247335489
+      Ledge tiles_33: -400392104
+      Ledge tiles_16: 262100047
+      Ledge tiles_11: -1192836122
+      Ledge tiles_132: -48619160
+      Ledge tiles_82: 1943736551
+      Ledge tiles_27: 1345209050
+      Ledge tiles_55: 573280545
+      Ledge tiles_73: -1415032622
+      Ledge tiles_38: -252795763
+      Ledge tiles_42: -1874310209
+      Ledge tiles_22: 1673111727
+      Ledge tiles_136: 1822278267
+      Ledge tiles_118: -849107020
+      Ledge tiles_72: -817562994
+      Ledge tiles_49: 1414691188
+      Ledge tiles_98: 136338742
+      Ledge tiles_51: 372270925
+      Ledge tiles_34: 66764295
+      Ledge tiles_45: -1219350790
+      Ledge tiles_10: -1225824621
+      Ledge tiles_124: -751045534
+      Ledge tiles_18: 882955148
+      Ledge tiles_54: 323632375
+      Ledge tiles_24: -387074856
+      Ledge tiles_95: -2069503895
+      Ledge tiles_12: 155232063
+      Ledge tiles_125: -705616078
+      Ledge tiles_113: 1138894360
+      Ledge tiles_89: 1677805253
+      Ledge tiles_92: -1900048185
+      Ledge tiles_88: 899595075
+      Ledge tiles_78: -295813664
+      Ledge tiles_133: -835072199
+      Ledge tiles_120: -451151902
+      Ledge tiles_71: 958685236
+      Ledge tiles_128: -690909160
+      Ledge tiles_135: -317105804
+      Ledge tiles_102: 1486518782
+      Ledge tiles_60: 755974753
+      Ledge tiles_50: 1032737365
+      Ledge tiles_84: -1166917440
+      Ledge tiles_130: 505712378
+      Ledge tiles_13: 120957496
+      Ledge tiles_15: -360243249
+      Ledge tiles_5: 1091667533
+      Ledge tiles_59: -1058757738
+      Ledge tiles_86: 2082089554
+      Ledge tiles_108: -581480062
+      Ledge tiles_56: -352212347
+      Ledge tiles_115: -1249118471
+      Ledge tiles_134: -670390628
+      Ledge tiles_74: -1890242092
+      Ledge tiles_35: -864366006
+      Ledge tiles_43: 962332735
+      Ledge tiles_66: -13467635
+      Ledge tiles_67: -1520316233
+      Ledge tiles_19: -1279204593
+      Ledge tiles_26: -1499810046
+      Ledge tiles_105: -1792030155
+      Ledge tiles_14: 460004227
+      Ledge tiles_58: 461422394
+      Ledge tiles_62: -96136734
+      Ledge tiles_121: -1719275961
+      Ledge tiles_64: 245511417
+      Ledge tiles_69: -519218663
+      Ledge tiles_30: -1820595205
+      Ledge tiles_65: 291154224
+      Ledge tiles_17: -280446616
+      Ledge tiles_0: 529170805
+      Ledge tiles_21: 1293104832
+      Ledge tiles_83: 2086422892
+      Ledge tiles_32: -265263838
+      Ledge tiles_9: 1919333424
+      Ledge tiles_46: 1062129234
+      Ledge tiles_20: 16844222
+      Ledge tiles_129: 1152293458
+      Ledge tiles_112: -2069220726
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
