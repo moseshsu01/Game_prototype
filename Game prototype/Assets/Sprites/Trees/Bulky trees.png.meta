@@ -43,7 +43,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -4827,8 +4827,8 @@ TextureImporter:
       Bulky trees_192: -1354413060
       Bulky trees_182: 581904841
       Bulky trees_209: 1415353017
-      Bulky trees_83: -1152910929
       Bulky trees_191: -258627086
+      Bulky trees_83: -1152910929
       Bulky trees_138: 1509478748
       Bulky trees_67: 96971376
       Bulky trees_164: -1241804798
@@ -4932,13 +4932,12 @@ TextureImporter:
       Bulky trees_144: -1096459427
       Bulky trees_80: 747109238
       Bulky trees_131: -560219125
-      Bulky trees_14: -906522340
+      Bulky trees_218: 933460061
       Bulky trees_11: -202282967
       Bulky trees_108: -938423515
       Bulky trees_124: -450329058
       Bulky trees_170: -263732549
-      Bulky trees_218: 933460061
-      Bulky trees_175: 2115609061
+      Bulky trees_14: -906522340
       Bulky trees_216: -1239168577
       Bulky trees_163: -244568514
       Bulky trees_171: 1986567326
@@ -4946,6 +4945,7 @@ TextureImporter:
       Bulky trees_110: -1440179802
       Bulky trees_118: 1321093994
       Bulky trees_137: 2013295252
+      Bulky trees_175: 2115609061
       Bulky trees_198: 796592388
       Bulky trees_26: 1652618673
       Bulky trees_75: 1732539200

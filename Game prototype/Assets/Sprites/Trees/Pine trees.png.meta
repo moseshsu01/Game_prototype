@@ -43,7 +43,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -4342,8 +4342,8 @@ TextureImporter:
       Pine trees_172: -906937508
       Pine trees_146: 1479078444
       Pine trees_27: 565478626
-      Pine trees_43: 1296256794
       Pine trees_151: 904321196
+      Pine trees_43: 1296256794
       Pine trees_133: 173243276
       Pine trees_154: 3977797
       Pine trees_157: 1350797737
@@ -4473,10 +4473,10 @@ TextureImporter:
       Pine trees_159: -321806373
       Pine trees_187: 101791985
       Pine trees_75: -663353538
-      Pine trees_48: 2026751420
-      Pine trees_73: 894774782
       Pine trees_136: 1921323490
+      Pine trees_48: 2026751420
       Pine trees_171: -1261347914
+      Pine trees_73: 894774782
       Pine trees_86: -537344480
       Pine trees_138: 1525911251
       Pine trees_149: 556560066

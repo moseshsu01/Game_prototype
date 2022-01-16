@@ -43,7 +43,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -3558,7 +3558,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Colored default trees_137: -158761278
+      Colored default trees_136: -2086514375
       Colored default trees_152: 1353784383
       Colored default trees_159: -2060956850
       Colored default trees_110: 1416968137
@@ -3641,11 +3641,11 @@ TextureImporter:
       Colored default trees_2: -402630577
       Colored default trees_10: 2016773715
       Colored default trees_162: -1956083051
-      Colored default trees_21: -1880722627
       Colored default trees_60: -1386957153
       Colored default trees_47: -1295929727
-      Colored default trees_42: -1805578695
+      Colored default trees_21: -1880722627
       Colored default trees_140: 162554040
+      Colored default trees_42: -1805578695
       Colored default trees_8: -1265252886
       Colored default trees_71: -321388829
       Colored default trees_27: 416786216
@@ -3721,7 +3721,7 @@ TextureImporter:
       Colored default trees_99: -743526954
       Colored default trees_148: -1377178330
       Colored default trees_119: -1487193247
-      Colored default trees_136: -2086514375
+      Colored default trees_137: -158761278
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
