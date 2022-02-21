@@ -6,15 +6,18 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
+    private Animator animator;
     private enum Direction
     {
         left, right, up, down
     }
     private List<Direction> directionInputs = new();
+    private Direction currentDirection;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -53,29 +56,37 @@ public class PlayerMovement : MonoBehaviour
             directionInputs.Remove(Direction.down);
         }
 
-        Vector2 movement = Vector2.zero;
         if (directionInputs.Count > 0)
         {
-            switch (directionInputs[^1])
+            if (directionInputs[^1] != currentDirection)
             {
-                case Direction.left:
-                    movement = new Vector2(-speed, 0);
-                    break;
-                case Direction.right:
-                    movement = new Vector2(speed, 0);
-                    break;
-                case Direction.up:
-                    movement = new Vector2(0, speed);
-                    break;
-                case Direction.down:
-                    movement = new Vector2(0, -speed);
-                    break;
-            }
-        }
+                Vector2 movement = Vector2.zero;
+                currentDirection = directionInputs[^1];
 
-        if (rb.velocity != movement)
+                switch (currentDirection)
+                {
+                    case Direction.left:
+                        movement = new Vector2(-speed, 0);
+                        break;
+                    case Direction.right:
+                        movement = new Vector2(speed, 0);
+                        break;
+                    case Direction.up:
+                        movement = new Vector2(0, speed);
+                        break;
+                    case Direction.down:
+                        movement = new Vector2(0, -speed);
+                        break;
+                }
+
+                if (rb.velocity != movement)
+                {
+                    rb.velocity = movement;
+                }
+            }
+        } else if (rb.velocity != Vector2.zero)
         {
-            rb.velocity = movement;
+            rb.velocity = Vector2.zero;
         }
     }
 }
