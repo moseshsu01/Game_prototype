@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed;
+    private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator animator;
     private enum Direction
@@ -12,10 +13,11 @@ public class PlayerMovement : MonoBehaviour
         left, right, up, down
     }
     private List<Direction> directionInputs = new();
-    private Direction currentDirection;
+    private Direction currentDirection = Direction.down;
 
     void Start()
     {
+        sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
@@ -58,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (directionInputs.Count > 0)
         {
-            if (directionInputs[^1] != currentDirection)
+            if (directionInputs[^1] != currentDirection || rb.velocity == Vector2.zero)
             {
                 Vector2 movement = Vector2.zero;
                 currentDirection = directionInputs[^1];
@@ -66,15 +68,19 @@ public class PlayerMovement : MonoBehaviour
                 switch (currentDirection)
                 {
                     case Direction.left:
+                        animator.Play("Walk left");
                         movement = new Vector2(-speed, 0);
                         break;
                     case Direction.right:
+                        animator.Play("Walk left");
                         movement = new Vector2(speed, 0);
                         break;
                     case Direction.up:
+                        animator.Play("Walk up");
                         movement = new Vector2(0, speed);
                         break;
                     case Direction.down:
+                        animator.Play("Walk down");
                         movement = new Vector2(0, -speed);
                         break;
                 }
@@ -84,9 +90,25 @@ public class PlayerMovement : MonoBehaviour
                     rb.velocity = movement;
                 }
             }
-        } else if (rb.velocity != Vector2.zero)
+        } else
         {
+            switch (currentDirection)
+            {
+                case Direction.left:
+                case Direction.right:
+                    animator.Play("Idle left");
+                    break;
+                case Direction.up:
+                    animator.Play("Idle up");
+                    break;
+                case Direction.down:
+                    animator.Play("Idle down");
+                    break;
+            }
+
             rb.velocity = Vector2.zero;
         }
+
+        sprite.flipX = currentDirection == Direction.right;
     }
 }
