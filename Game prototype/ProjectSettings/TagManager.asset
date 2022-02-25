@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Trigger
   - Water
   - UI
-  - 
+  - Elevated
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Colliders
+    uniqueID: 978705879
+    locked: 0
   - name: Ground
     uniqueID: 3283670837
     locked: 0
@@ -56,15 +59,18 @@ TagManager:
   - name: Ledge
     uniqueID: 4271295203
     locked: 0
-  - name: Decorations shadow
+  - name: Decoration shadow
     uniqueID: 1282211231
     locked: 0
-  - name: Decorations
+  - name: Decoration
     uniqueID: 2195625235
     locked: 0
-  - name: Objects shadow
+  - name: Object shadow
     uniqueID: 3678207793
     locked: 0
-  - name: Objects
+  - name: Object
     uniqueID: 553276511
+    locked: 0
+  - name: Elevated
+    uniqueID: 3121710953
     locked: 0
