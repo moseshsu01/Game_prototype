@@ -26,8 +26,14 @@ public class PlayerMovement : MonoBehaviour
     {
         left, right, up, down
     }
-    private List<Direction> directionInputs = new();
+    private enum Action
+    {
+        walkLeft, walkRight, walkUp, walkDown,
+        slash
+    }
+    private List<Action> actionInputs = new();
     private Direction currentDirection = Direction.down;
+    private Action? currentAction;
 
     void Start()
     {
@@ -40,70 +46,53 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown("left"))
         {
-            directionInputs.Add(Direction.left);
+            actionInputs.Add(Action.walkLeft);
         }
         if (Input.GetKeyDown("right"))
         {
-            directionInputs.Add(Direction.right);
+            actionInputs.Add(Action.walkRight);
         }
         if (Input.GetKeyDown("up"))
         {
-            directionInputs.Add(Direction.up);
+            actionInputs.Add(Action.walkUp);
         }
         if (Input.GetKeyDown("down"))
         {
-            directionInputs.Add(Direction.down);
+            actionInputs.Add(Action.walkDown);
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            actionInputs.Add(Action.slash);
         }
 
         if (Input.GetKeyUp("left"))
         {
-            directionInputs.Remove(Direction.left);
+            actionInputs.Remove(Action.walkLeft);
         }
         if (Input.GetKeyUp("right"))
         {
-            directionInputs.Remove(Direction.right);
+            actionInputs.Remove(Action.walkRight);
         }
         if (Input.GetKeyUp("up"))
         {
-            directionInputs.Remove(Direction.up);
+            actionInputs.Remove(Action.walkUp);
         }
         if (Input.GetKeyUp("down"))
         {
-            directionInputs.Remove(Direction.down);
+            actionInputs.Remove(Action.walkDown);
         }
 
-        if (directionInputs.Count > 0)
+        if (actionInputs.Count > 0)
         {
-            if (directionInputs[^1] != currentDirection || rb.velocity == Vector2.zero)
+            string movementName = actionInputs[^1].ToString();
+            if (movementName.StartsWith("walk"))
             {
-                Vector2 movement = Vector2.zero;
-                currentDirection = directionInputs[^1];
-
-                switch (currentDirection)
-                {
-                    case Direction.left:
-                        animator.Play("Walk left");
-                        movement = new Vector2(-speed, 0);
-                        break;
-                    case Direction.right:
-                        animator.Play("Walk left");
-                        movement = new Vector2(speed, 0);
-                        break;
-                    case Direction.up:
-                        animator.Play("Walk up");
-                        movement = new Vector2(0, speed);
-                        break;
-                    case Direction.down:
-                        animator.Play("Walk down");
-                        movement = new Vector2(0, -speed);
-                        break;
-                }
-
-                if (rb.velocity != movement)
-                {
-                    rb.velocity = movement;
-                }
+                walk(actionInputs[^1]);
+            } else if (actionInputs[^1] == Action.slash)
+            {
+                slash();
             }
+            
         } else
         {
             switch (currentDirection)
@@ -124,6 +113,96 @@ public class PlayerMovement : MonoBehaviour
         }
 
         sprite.flipX = currentDirection == Direction.right;
+    }
+
+    private Direction getWalkDirection(Action walkInput)
+    {
+        if (walkInput == Action.walkLeft)
+        {
+            return Direction.left;
+        } else if (walkInput == Action.walkRight)
+        {
+            return Direction.right;
+        } else if (walkInput == Action.walkUp)
+        {
+            return Direction.up;
+        } else
+        {
+            return Direction.down;
+        }
+    }
+
+    private void walk(Action walkInput)
+    {
+        if (getWalkDirection(walkInput) != currentDirection || rb.velocity == Vector2.zero)
+        {
+            Vector2 movement = Vector2.zero;
+            currentDirection = getWalkDirection(walkInput);
+            if (walkInput == Action.walkRight)
+            {
+                animator.Play("walkLeft");
+            } else
+            {
+                animator.Play(walkInput.ToString());
+            }
+
+            switch (currentDirection)
+            {
+                case Direction.left:
+                    movement = new Vector2(-speed, 0);
+                    currentAction = Action.walkLeft;
+                    break;
+                case Direction.right:
+                    movement = new Vector2(speed, 0);
+                    currentAction = Action.walkRight;
+                    break;
+                case Direction.up:
+                    movement = new Vector2(0, speed);
+                    currentAction = Action.walkUp;
+                    break;
+                case Direction.down:
+                    movement = new Vector2(0, -speed);
+                    currentAction = Action.walkDown;
+                    break;
+            }
+
+            if (rb.velocity != movement)
+            {
+                rb.velocity = movement;
+            }
+        }
+    }
+
+    private void slash()
+    {
+        if (currentAction == Action.slash)
+        {
+            AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+            if (state.normalizedTime > 1 && !animator.IsInTransition(0))
+            {
+                actionInputs.Remove(Action.slash);
+                currentAction = null;
+            }
+
+            return;
+        }
+
+        rb.velocity = Vector2.zero;
+        switch (currentDirection)
+        {
+            case Direction.left:
+            case Direction.right:
+                animator.Play("slashLeft");
+                break;
+            case Direction.up:
+                animator.Play("slashUp");
+                break;
+            case Direction.down:
+                animator.Play("slashDown");
+                break;
+        }
+
+        currentAction = Action.slash;
     }
 
     private void updateSpeed()
