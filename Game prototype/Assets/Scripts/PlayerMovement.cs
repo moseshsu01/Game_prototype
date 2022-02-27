@@ -4,7 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
+    [SerializeField]private float speed;
+
+    public float Speed
+    {
+        get
+        {
+            return speed;
+        }
+        set
+        {
+            speed = value;
+            updateSpeed();
+        }
+    }
+
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator animator;
@@ -110,5 +124,29 @@ public class PlayerMovement : MonoBehaviour
         }
 
         sprite.flipX = currentDirection == Direction.right;
+    }
+
+    private void updateSpeed()
+    {
+        if (rb.velocity == Vector2.zero)
+        {
+            return;
+        }
+
+        switch (currentDirection)
+        {
+            case Direction.left:
+                rb.velocity = new Vector2(-speed, 0);
+                break;
+            case Direction.right:
+                rb.velocity = new Vector2(speed, 0);
+                break;
+            case Direction.up:
+                rb.velocity = new Vector2(0, speed);
+                break;
+            case Direction.down:
+                rb.velocity = new Vector2(0, -speed);
+                break;
+        }
     }
 }
