@@ -53,23 +53,50 @@ TagManager:
   - name: Grass
     uniqueID: 523207859
     locked: 0
-  - name: Ledge shadow
-    uniqueID: 3735461889
-    locked: 0
-  - name: Ledge
-    uniqueID: 4271295203
-    locked: 0
   - name: Decoration shadow
     uniqueID: 1282211231
     locked: 0
   - name: Decoration
     uniqueID: 2195625235
     locked: 0
-  - name: Object shadow
+  - name: Ledge shadow 1
     uniqueID: 3678207793
     locked: 0
-  - name: Object
+  - name: Ledge 1
     uniqueID: 553276511
+    locked: 0
+  - name: Ledge Shadow 2
+    uniqueID: 2750464993
+    locked: 0
+  - name: Ledge 2
+    uniqueID: 2283348327
+    locked: 0
+  - name: Ledge Shadow 3
+    uniqueID: 3215930639
+    locked: 0
+  - name: Ledge 3
+    uniqueID: 3945836369
+    locked: 0
+  - name: Ledge Shadow 4
+    uniqueID: 3097731799
+    locked: 0
+  - name: Ledge 4
+    uniqueID: 1770895939
+    locked: 0
+  - name: Ledge Shadow 5
+    uniqueID: 364047325
+    locked: 0
+  - name: Ledge 5
+    uniqueID: 642166621
+    locked: 0
+  - name: Objects shadow
+    uniqueID: 2254623259
+    locked: 0
+  - name: Objects
+    uniqueID: 406475637
+    locked: 0
+  - name: Buildings
+    uniqueID: 65834033
     locked: 0
   - name: Elevated
     uniqueID: 3121710953
