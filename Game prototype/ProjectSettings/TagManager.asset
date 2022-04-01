@@ -44,20 +44,8 @@ TagManager:
   - name: Colliders
     uniqueID: 978705879
     locked: 0
-  - name: Ground
-    uniqueID: 3283670837
-    locked: 0
-  - name: Grass shadow
-    uniqueID: 298058309
-    locked: 0
-  - name: Grass
-    uniqueID: 523207859
-    locked: 0
-  - name: Decoration shadow
-    uniqueID: 1282211231
-    locked: 0
-  - name: Decoration
-    uniqueID: 2195625235
+  - name: Floor
+    uniqueID: 1120567475
     locked: 0
   - name: Ledge shadow 1
     uniqueID: 3678207793
@@ -88,6 +76,21 @@ TagManager:
     locked: 0
   - name: Ledge 5
     uniqueID: 642166621
+    locked: 0
+  - name: Ground
+    uniqueID: 3283670837
+    locked: 0
+  - name: Grass shadow
+    uniqueID: 298058309
+    locked: 0
+  - name: Grass
+    uniqueID: 523207859
+    locked: 0
+  - name: Decoration shadow
+    uniqueID: 1282211231
+    locked: 0
+  - name: Decoration
+    uniqueID: 2195625235
     locked: 0
   - name: Objects shadow
     uniqueID: 2254623259
