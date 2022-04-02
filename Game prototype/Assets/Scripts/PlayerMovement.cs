@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]private float speed;
+    [SerializeField] private float speed;
 
     public float Speed
     {
@@ -35,6 +36,14 @@ public class PlayerMovement : MonoBehaviour
     private Direction currentDirection = Direction.down;
     private Action? currentAction;
 
+    private bool movementFrozen = false;
+    public void freezeMovement()
+    {
+        movementFrozen = true;
+        actionInputs.Clear();
+    }
+    public void unfreezeMovement() => movementFrozen = false;
+
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -44,43 +53,47 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("left"))
+        if (!movementFrozen)
         {
-            actionInputs.Add(Action.walkLeft);
-        }
-        if (Input.GetKeyDown("right"))
-        {
-            actionInputs.Add(Action.walkRight);
-        }
-        if (Input.GetKeyDown("up"))
-        {
-            actionInputs.Add(Action.walkUp);
-        }
-        if (Input.GetKeyDown("down"))
-        {
-            actionInputs.Add(Action.walkDown);
-        }
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            actionInputs.Add(Action.slash);
-        }
+            if (Input.GetKeyDown("left"))
+            {
+                actionInputs.Add(Action.walkLeft);
+            }
+            if (Input.GetKeyDown("right"))
+            {
+                actionInputs.Add(Action.walkRight);
+            }
+            if (Input.GetKeyDown("up"))
+            {
+                actionInputs.Add(Action.walkUp);
+            }
+            if (Input.GetKeyDown("down"))
+            {
+                actionInputs.Add(Action.walkDown);
+            }
+            if (Input.GetButtonDown("AButton"))
+            {
+                actionInputs.Add(Action.slash);
+            }
 
-        if (Input.GetKeyUp("left"))
-        {
-            actionInputs.Remove(Action.walkLeft);
+            if (Input.GetKeyUp("left"))
+            {
+                actionInputs.Remove(Action.walkLeft);
+            }
+            if (Input.GetKeyUp("right"))
+            {
+                actionInputs.Remove(Action.walkRight);
+            }
+            if (Input.GetKeyUp("up"))
+            {
+                actionInputs.Remove(Action.walkUp);
+            }
+            if (Input.GetKeyUp("down"))
+            {
+                actionInputs.Remove(Action.walkDown);
+            }
         }
-        if (Input.GetKeyUp("right"))
-        {
-            actionInputs.Remove(Action.walkRight);
-        }
-        if (Input.GetKeyUp("up"))
-        {
-            actionInputs.Remove(Action.walkUp);
-        }
-        if (Input.GetKeyUp("down"))
-        {
-            actionInputs.Remove(Action.walkDown);
-        }
+        
 
         if (actionInputs.Count > 0)
         {
