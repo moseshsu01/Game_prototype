@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a76b29b8c2d8c4366b9de331b98b13cc
+guid: 775a9ef100cba4685adc86d767ebf6a4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,89 +100,59 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mina up_0
+      name: Well object_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 42
-        width: 42
-        height: 42
+        y: 70
+        width: 56
+        height: 56
       alignment: 9
-      pivot: {x: 0.5, y: 0.26}
+      pivot: {x: 0.5, y: 0.1081837}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64a1a0ebc4d35470693314e6dc241e02
-      internalID: -1643505903
+      spriteID: f7066da07481f420a902ec163068c6d5
+      internalID: 1960758181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mina up_1
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 42
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.26}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c38b33a2f6984d3d9f250d066e7ff74
-      internalID: 1581878097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mina up_2
+      name: Well object_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 42
-        height: 42
+        y: 14
+        width: 56
+        height: 56
       alignment: 9
-      pivot: {x: 0.5, y: 0.26}
+      pivot: {x: 0.5, y: 0.1081837}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97aace619bcd94e649e1576544731779
-      internalID: 1774279132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mina up_3
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 0
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.26}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c35bfa54808b54ab7b29d762da7007e9
-      internalID: 1142337162
+      spriteID: 0797cad0fe32f472cb48b146f378283f
+      internalID: 384971164
       vertices: []
       indices: 
       edges: []
@@ -198,10 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mina up_2: 1774279132
-      Mina up_0: -1643505903
-      Mina up_3: 1142337162
-      Mina up_1: 1581878097
+      Well object_1: 384971164
+      Well object_0: 1960758181
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
