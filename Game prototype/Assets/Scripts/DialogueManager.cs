@@ -6,6 +6,8 @@ using Ink.Runtime;
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField] private float typingSpeed = 0.003f;
+
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
     private Story currentStory;
@@ -14,6 +16,10 @@ public class DialogueManager : MonoBehaviour
     public bool dialogueIsPlaying { get; private set; }
 
     private PlayerMovement player;
+
+    private Coroutine displayLineCoroutine;
+
+    private bool finishedAutotyping = false;
 
     private void Awake()
     {
@@ -40,7 +46,15 @@ public class DialogueManager : MonoBehaviour
 
         if (Input.GetButtonDown("AButton") || Input.GetButtonDown("BButton"))
         {
-            ContinueStory();
+            if (finishedAutotyping)
+            {
+                ContinueStory();
+            } else
+            {
+                dialogueText.text = currentStory.currentText;
+                StopCoroutine(displayLineCoroutine);
+                finishedAutotyping = true;
+            }
         }
     }
 
@@ -68,11 +82,30 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentStory.canContinue)
         {
-            dialogueText.text = currentStory.Continue();
+            if (displayLineCoroutine != null)
+            {
+                StopCoroutine(displayLineCoroutine);
+            }
+
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
         }
         else
         {
             StartCoroutine(ExitDialogueMode());
         }
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        dialogueText.text = "";
+        finishedAutotyping = false;
+
+        foreach (char letter in line.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        finishedAutotyping = true;
     }
 }

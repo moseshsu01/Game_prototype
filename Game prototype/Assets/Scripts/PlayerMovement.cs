@@ -44,6 +44,9 @@ public class PlayerMovement : MonoBehaviour
     }
     public void unfreezeMovement() => movementFrozen = false;
 
+    public delegate void AButtonPress();
+    public AButtonPress playerAButton;
+
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -71,9 +74,14 @@ public class PlayerMovement : MonoBehaviour
             {
                 actionInputs.Add(Action.walkDown);
             }
+
             if (Input.GetButtonDown("AButton"))
             {
-                actionInputs.Add(Action.slash);
+                if (playerAButton == null)
+                {
+                    playerAButton = () => actionInputs.Add(Action.slash);
+                }
+                playerAButton();
             }
 
             if (Input.GetKeyUp("left"))

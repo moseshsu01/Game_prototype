@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8311622616943243695}
   - component: {fileID: 1512588891780553889}
+  - component: {fileID: 337285605186762868}
   m_Layer: 0
   m_Name: Rocks_9
   m_TagString: Untagged
@@ -71,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 553276511
-  m_SortingLayer: 9
+  m_SortingLayerID: 406475637
+  m_SortingLayer: 19
   m_SortingOrder: 0
   m_Sprite: {fileID: -124688001, guid: e960e8300ce3d410cace72679bf1dc6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -85,6 +86,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &337285605186762868
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5029661275308180766}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0039946735, y: 0.4633796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8043958, y: 1.0134547}
+  m_EdgeRadius: 0
 --- !u!1 &8403929296369031769
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,8 +182,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -616759503
-  m_SortingLayer: 8
+  m_SortingLayerID: -2040344037
+  m_SortingLayer: 18
   m_SortingOrder: 0
   m_Sprite: {fileID: -1585602143, guid: ae51922ddafae487d87f171e538447d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
