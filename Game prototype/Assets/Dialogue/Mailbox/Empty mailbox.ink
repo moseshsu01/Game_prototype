@@ -1,1 +1,1 @@
-The mailbox is empty
+The Mailbox is empty
