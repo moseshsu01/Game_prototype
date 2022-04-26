@@ -109,11 +109,11 @@ public class PlayerMovement : MonoBehaviour
             if (movementName.StartsWith("walk"))
             {
                 walk(actionInputs[^1]);
-            } else if (actionInputs[^1] == Action.slash)
+            }
+            else if (actionInputs[^1] == Action.slash)
             {
                 slash();
             }
-            
         } else
         {
             switch (currentDirection)
