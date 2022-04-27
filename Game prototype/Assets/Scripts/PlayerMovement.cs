@@ -119,8 +119,10 @@ public class PlayerMovement : MonoBehaviour
             switch (currentDirection)
             {
                 case Direction.left:
-                case Direction.right:
                     animator.Play("Idle left");
+                    break;
+                case Direction.right:
+                    animator.Play("Idle right");
                     break;
                 case Direction.up:
                     animator.Play("Idle up");
@@ -132,8 +134,6 @@ public class PlayerMovement : MonoBehaviour
 
             rb.velocity = Vector2.zero;
         }
-
-        sprite.flipX = currentDirection == Direction.right;
     }
 
     private Direction getWalkDirection(Action walkInput)
@@ -159,13 +159,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 movement = Vector2.zero;
             currentDirection = getWalkDirection(walkInput);
-            if (walkInput == Action.walkRight)
-            {
-                animator.Play("walkLeft");
-            } else
-            {
-                animator.Play(walkInput.ToString());
-            }
+            animator.Play(walkInput.ToString());
 
             switch (currentDirection)
             {
@@ -212,8 +206,10 @@ public class PlayerMovement : MonoBehaviour
         switch (currentDirection)
         {
             case Direction.left:
-            case Direction.right:
                 animator.Play("slashLeft");
+                break;
+            case Direction.right:
+                animator.Play("slashRight");
                 break;
             case Direction.up:
                 animator.Play("slashUp");

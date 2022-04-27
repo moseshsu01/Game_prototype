@@ -10,7 +10,7 @@ public class GoblinMovement : MonoBehaviour
     private Transform target;
     private enum State
     {
-        chasing, returning, attacking, idle
+        chasing, rechasing, returning, attacking, idle
     }
     private State state;
 
@@ -28,6 +28,7 @@ public class GoblinMovement : MonoBehaviour
     }
     private Direction currentDirection;
     private bool playerInRange = false;
+    private bool playerInContact = false;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,13 @@ public class GoblinMovement : MonoBehaviour
                 if (inAttackRange())
                 {
                     attack();
+                    break;
+                }
+
+                // !inAttackRange() is also a requirement
+                if (playerInContact && state != State.rechasing)
+                {
+                    reChase();
                     break;
                 }
 
@@ -92,8 +100,22 @@ public class GoblinMovement : MonoBehaviour
                 }
                 break;
         }
+    }
 
-        sprite.flipX = currentDirection == Direction.right;
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            playerInContact = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            playerInContact = false;
+        }
     }
 
     public void playerTriggerEnter()
@@ -116,8 +138,10 @@ public class GoblinMovement : MonoBehaviour
         switch (defaultDirection)
         {
             case Direction.left:
-            case Direction.right:
                 animator.Play("Idle left");
+                break;
+            case Direction.right:
+                animator.Play("Idle right");
                 break;
             case Direction.up:
                 animator.Play("Idle up");
@@ -138,8 +162,10 @@ public class GoblinMovement : MonoBehaviour
         switch (currentDirection)
         {
             case Direction.left:
-            case Direction.right:
                 animator.Play("Stab left");
+                break;
+            case Direction.right:
+                animator.Play("Stab right");
                 break;
             case Direction.up:
                 animator.Play("Stab up");
@@ -161,15 +187,44 @@ public class GoblinMovement : MonoBehaviour
         {
             if (distanceX > 0)
             {
-                walk(WalkAction.walkRight);
+                if (currentDirection != Direction.right)
+                {
+                    walk(WalkAction.walkRight);
+                }
             }
             else
             {
-                walk(WalkAction.walkLeft);
+                if (currentDirection != Direction.left)
+                {
+                    walk(WalkAction.walkLeft);
+                }
             }
         }
         else
         {
+            if (distanceY > 0)
+            {
+                if (currentDirection != Direction.up)
+                {
+                    walk(WalkAction.walkUp);
+                }
+            }
+            else
+            {
+                if (currentDirection != Direction.down)
+                {
+                    walk(WalkAction.walkDown);
+                }
+            }
+        }
+    }
+
+    void reChase()
+    {
+        state = State.rechasing;
+        if (currentDirection == Direction.left || currentDirection == Direction.right)
+        {
+            float distanceY = target.position.y - transform.position.y;
             if (distanceY > 0)
             {
                 walk(WalkAction.walkUp);
@@ -177,6 +232,17 @@ public class GoblinMovement : MonoBehaviour
             else
             {
                 walk(WalkAction.walkDown);
+            }
+        } else
+        {
+            float distanceX = target.position.x - transform.position.x;
+            if (distanceX > 0)
+            {
+                walk(WalkAction.walkRight);
+            }
+            else
+            {
+                walk(WalkAction.walkLeft);
             }
         }
     }
@@ -233,14 +299,7 @@ public class GoblinMovement : MonoBehaviour
     private void walk(WalkAction walkInput)
     {
         currentDirection = getWalkDirection(walkInput);
-        if (walkInput == WalkAction.walkRight)
-        {
-            animator.Play("walkLeft");
-        }
-        else
-        {
-            animator.Play(walkInput.ToString());
-        }
+        animator.Play(walkInput.ToString());
 
         switch (walkInput)
         {
@@ -265,28 +324,37 @@ public class GoblinMovement : MonoBehaviour
 
     bool inAttackRange()
     {
-        if (Mathf.Abs(transform.position.x - target.position.x) <= 0.2f)
+        Vector2 position;
+        // awkward initialization, fix
+        RaycastHit2D[] stabHits = Physics2D.RaycastAll(transform.position, Vector2.left, 0);
+        switch (currentDirection)
         {
-            float distance = target.position.y - transform.position.y;
-            if (currentDirection == Direction.up)
-            {
-                return distance <= 0.75f && distance >= 0.65f;
-            } else if (currentDirection == Direction.down)
-            {
-                return distance >= -0.75f && distance <= -0.65f;
-            }
-        } else if (Mathf.Abs(transform.position.y - target.position.y) <= 0.2f)
+            case Direction.left:
+                position = new Vector2(transform.position.x, transform.position.y + 0.18f);
+                stabHits = Physics2D.RaycastAll(position, Vector2.left, 0.85f);
+                break;
+            case Direction.right:
+                position = new Vector2(transform.position.x, transform.position.y + 0.18f);
+                stabHits = Physics2D.RaycastAll(position, Vector2.right, 0.85f);
+                break;
+            case Direction.up:
+                position = new Vector2(transform.position.x + 0.1f, transform.position.y + 0.4f);
+                stabHits = Physics2D.RaycastAll(position, Vector2.up, 0.5f);
+                break;
+            case Direction.down:
+                position = new Vector2(transform.position.x - 0.25f, transform.position.y);
+                stabHits = Physics2D.RaycastAll(position, Vector2.down, 0.5f);
+                break;
+        }
+
+        foreach (RaycastHit2D hit in stabHits)
         {
-            float distance = target.position.x - transform.position.x;
-            if (currentDirection == Direction.left)
+            if (hit.collider.CompareTag("Player hurtbox"))
             {
-                return distance >= -1 && distance <= -0.9f;
-            }
-            else if (currentDirection == Direction.right)
-            {
-                return distance <= 1 && distance >= 0.9f;
+                return true;
             }
         }
+
         return false;
     }
 }
