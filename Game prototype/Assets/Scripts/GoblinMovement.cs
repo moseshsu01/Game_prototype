@@ -14,7 +14,6 @@ public class GoblinMovement : MonoBehaviour
     }
     private State state;
 
-    private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator animator;
 
@@ -27,35 +26,47 @@ public class GoblinMovement : MonoBehaviour
         left, right, up, down
     }
     private Direction currentDirection;
-    private bool playerInRange = false;
+    private bool playerInArea = false;
     private bool playerInContact = false;
+
+    private HitboxDetector leftHitbox;
+    private HitboxDetector rightHitbox;
+    private HitboxDetector upHitbox;
+    private HitboxDetector downHitbox;
+
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
-        sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
         currentDirection = defaultDirection;
         state = State.idle;
+
+        leftHitbox = gameObject.transform.GetChild(1).gameObject.GetComponent<HitboxDetector>();
+        rightHitbox = gameObject.transform.GetChild(2).gameObject.GetComponent<HitboxDetector>();
+        upHitbox = gameObject.transform.GetChild(3).gameObject.GetComponent<HitboxDetector>();
+        downHitbox = gameObject.transform.GetChild(4).gameObject.GetComponent<HitboxDetector>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        bool canAttack = inAttackRange();
         switch (state)
         {
             case State.chasing:
-                if (inAttackRange())
+            case State.rechasing:
+                if (canAttack)
                 {
                     attack();
                     break;
                 }
 
-                // !inAttackRange() is also a requirement
-                if (playerInContact && state != State.rechasing)
+                // !canAttack is also a condition
+                if (playerInContact && isFacingPlayer())
                 {
                     reChase();
                     break;
@@ -64,13 +75,11 @@ public class GoblinMovement : MonoBehaviour
                 if (currentDirection == Direction.right && transform.position.x >= target.position.x
                     || currentDirection == Direction.left && transform.position.x <= target.position.x)
                 {
-                    transform.position = new Vector3(target.position.x, transform.position.y);
                     chase();
                 }
                 else if (currentDirection == Direction.up && transform.position.y >= target.position.y
                   || currentDirection == Direction.down && transform.position.y <= target.position.y)
                 {
-                    transform.position = new Vector3(transform.position.x, target.position.y);
                     chase();
                 }
                 break;
@@ -94,12 +103,29 @@ public class GoblinMovement : MonoBehaviour
                 }
                 break;
             case State.attacking:
-                if (playerInRange && !inAttackRange())
+                if (playerInArea && !canAttack)
                 {
-                    chase();
+                    AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+                    if (state.normalizedTime > 1 && !animator.IsInTransition(0))
+                    {
+                        chase();
+                    }
+                        
                 }
                 break;
         }
+    }
+
+    public void playerTriggerEnter()
+    {
+        playerInArea = true;
+        chase();
+    }
+
+    public void playerTriggerExit()
+    {
+        playerInArea = false;
+        returnToOrigin();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -116,18 +142,6 @@ public class GoblinMovement : MonoBehaviour
         {
             playerInContact = false;
         }
-    }
-
-    public void playerTriggerEnter()
-    {
-        playerInRange = true;
-        chase();
-    }
-
-    public void playerTriggerExit()
-    {
-        playerInRange = false;
-        returnToOrigin();
     }
 
     void idle()
@@ -190,6 +204,7 @@ public class GoblinMovement : MonoBehaviour
                 if (currentDirection != Direction.right)
                 {
                     walk(WalkAction.walkRight);
+                    return;
                 }
             }
             else
@@ -197,6 +212,7 @@ public class GoblinMovement : MonoBehaviour
                 if (currentDirection != Direction.left)
                 {
                     walk(WalkAction.walkLeft);
+                    return;
                 }
             }
         }
@@ -207,6 +223,7 @@ public class GoblinMovement : MonoBehaviour
                 if (currentDirection != Direction.up)
                 {
                     walk(WalkAction.walkUp);
+                    return;
                 }
             }
             else
@@ -214,14 +231,18 @@ public class GoblinMovement : MonoBehaviour
                 if (currentDirection != Direction.down)
                 {
                     walk(WalkAction.walkDown);
+                    return;
                 }
             }
         }
+
+        reChase();
     }
 
     void reChase()
     {
         state = State.rechasing;
+
         if (currentDirection == Direction.left || currentDirection == Direction.right)
         {
             float distanceY = target.position.y - transform.position.y;
@@ -233,7 +254,8 @@ public class GoblinMovement : MonoBehaviour
             {
                 walk(WalkAction.walkDown);
             }
-        } else
+        }
+        else
         {
             float distanceX = target.position.x - transform.position.x;
             if (distanceX > 0)
@@ -305,56 +327,52 @@ public class GoblinMovement : MonoBehaviour
         {
             case WalkAction.walkLeft:
                 rb.velocity = new Vector2(-speed, 0);
-                currentDirection = Direction.left;
                 break;
             case WalkAction.walkRight:
                 rb.velocity = new Vector2(speed, 0);
-                currentDirection = Direction.right;
                 break;
             case WalkAction.walkUp:
                 rb.velocity = new Vector2(0, speed);
-                currentDirection = Direction.up;
                 break;
             case WalkAction.walkDown:
                 rb.velocity = new Vector2(0, -speed);
-                currentDirection = Direction.down;
                 break;
         }
     }
 
-    bool inAttackRange()
+    // assuming playerInContact is true
+    bool isFacingPlayer()
     {
-        Vector2 position;
-        // awkward initialization, fix
-        RaycastHit2D[] stabHits = Physics2D.RaycastAll(transform.position, Vector2.left, 0);
+        float distanceX = target.position.x - transform.position.x;
+        float distanceY = target.position.y - transform.position.y;
         switch (currentDirection)
         {
             case Direction.left:
-                position = new Vector2(transform.position.x, transform.position.y + 0.18f);
-                stabHits = Physics2D.RaycastAll(position, Vector2.left, 0.85f);
-                break;
             case Direction.right:
-                position = new Vector2(transform.position.x, transform.position.y + 0.18f);
-                stabHits = Physics2D.RaycastAll(position, Vector2.right, 0.85f);
-                break;
+                return distanceY < 0.494999f && distanceY > -0.574999f;
             case Direction.up:
-                position = new Vector2(transform.position.x + 0.1f, transform.position.y + 0.4f);
-                stabHits = Physics2D.RaycastAll(position, Vector2.up, 0.5f);
-                break;
             case Direction.down:
-                position = new Vector2(transform.position.x - 0.25f, transform.position.y);
-                stabHits = Physics2D.RaycastAll(position, Vector2.down, 0.5f);
-                break;
+                return distanceX < 0.795f && distanceX > -0.795f;
         }
 
-        foreach (RaycastHit2D hit in stabHits)
+        // should never reach here
+        return false;
+    }
+
+    bool inAttackRange()
+    {
+        switch (currentDirection)
         {
-            if (hit.collider.CompareTag("Player hurtbox"))
-            {
-                return true;
-            }
+            case Direction.left:
+                return leftHitbox.playerInRange;
+            case Direction.right:
+                return rightHitbox.playerInRange;
+            case Direction.up:
+                return upHitbox.playerInRange;
+            case Direction.down:
+                return downHitbox.playerInRange;
         }
-
+        // should never reach here
         return false;
     }
 }
