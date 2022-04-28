@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private enum Action
     {
-        walkLeft, walkRight, walkUp, walkDown,
+        idle, walkLeft, walkRight, walkUp, walkDown,
         slash
     }
     private List<Action> actionInputs = new();
@@ -56,6 +56,25 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log(currentAction);
+        //// prevent player from getting pushed
+        //Vector2 currentMovement = rb.velocity;
+        //switch (currentAction)
+        //{
+        //    case Action.walkLeft:
+        //        rb.velocity = new Vector2(-speed, 0);
+        //        break;
+        //    case Action.walkRight:
+        //        rb.velocity = new Vector2(speed, 0);
+        //        break;
+        //    case Action.walkUp:
+        //        rb.velocity = new Vector2(0, speed);
+        //        break;
+        //    case Action.walkDown:
+        //        rb.velocity = new Vector2(0, -speed);
+        //        break;
+        //}
+
         if (!movementFrozen)
         {
             if (Input.GetKeyDown("left"))
@@ -132,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
                     break;
             }
 
+            currentAction = Action.idle;
             rb.velocity = Vector2.zero;
         }
     }
@@ -155,36 +175,39 @@ public class PlayerMovement : MonoBehaviour
 
     private void walk(Action walkInput)
     {
-        if (getWalkDirection(walkInput) != currentDirection || rb.velocity == Vector2.zero)
+        Direction walkDirection = getWalkDirection(walkInput);
+        if (walkDirection != currentDirection || !currentAction.ToString().StartsWith("walk"))
         {
-            Vector2 movement = Vector2.zero;
-            currentDirection = getWalkDirection(walkInput);
             animator.Play(walkInput.ToString());
+        }
 
-            switch (currentDirection)
-            {
-                case Direction.left:
-                    movement = new Vector2(-speed, 0);
-                    currentAction = Action.walkLeft;
-                    break;
-                case Direction.right:
-                    movement = new Vector2(speed, 0);
-                    currentAction = Action.walkRight;
-                    break;
-                case Direction.up:
-                    movement = new Vector2(0, speed);
-                    currentAction = Action.walkUp;
-                    break;
-                case Direction.down:
-                    movement = new Vector2(0, -speed);
-                    currentAction = Action.walkDown;
-                    break;
-            }
+        Vector2 movement = Vector2.zero;
+        currentDirection = walkDirection;
+        animator.Play(walkInput.ToString());
 
-            if (rb.velocity != movement)
-            {
-                rb.velocity = movement;
-            }
+        switch (currentDirection)
+        {
+            case Direction.left:
+                movement = new Vector2(-speed, 0);
+                currentAction = Action.walkLeft;
+                break;
+            case Direction.right:
+                movement = new Vector2(speed, 0);
+                currentAction = Action.walkRight;
+                break;
+            case Direction.up:
+                movement = new Vector2(0, speed);
+                currentAction = Action.walkUp;
+                break;
+            case Direction.down:
+                movement = new Vector2(0, -speed);
+                currentAction = Action.walkDown;
+                break;
+        }
+
+        if (rb.velocity != movement)
+        {
+            rb.velocity = movement;
         }
     }
 

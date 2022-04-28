@@ -27,13 +27,11 @@ public class GoblinMovement : MonoBehaviour
     }
     private Direction currentDirection;
     private bool playerInArea = false;
-    private bool playerInContact = false;
 
     private HitboxDetector leftHitbox;
     private HitboxDetector rightHitbox;
     private HitboxDetector upHitbox;
     private HitboxDetector downHitbox;
-
 
     // Start is called before the first frame update
     void Start()
@@ -66,8 +64,15 @@ public class GoblinMovement : MonoBehaviour
                 }
 
                 // !canAttack is also a condition
-                if (playerInContact && isFacingPlayer())
+                if (isFacingPlayer())
                 {
+                    // prevents continuous rechasing when corners are close
+                    if (state == State.rechasing)
+                    {
+                        attack();
+                        break;
+                    }
+
                     reChase();
                     break;
                 }
@@ -108,9 +113,15 @@ public class GoblinMovement : MonoBehaviour
                     AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
                     if (state.normalizedTime > 1 && !animator.IsInTransition(0))
                     {
-                        chase();
+                        if (isFacingPlayer())
+                        {
+                            reChase();
+                        }
+                        else
+                        {
+                            chase();
+                        }
                     }
-                        
                 }
                 break;
         }
@@ -126,22 +137,6 @@ public class GoblinMovement : MonoBehaviour
     {
         playerInArea = false;
         returnToOrigin();
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            playerInContact = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            playerInContact = false;
-        }
     }
 
     void idle()
@@ -340,19 +335,42 @@ public class GoblinMovement : MonoBehaviour
         }
     }
 
-    // assuming playerInContact is true
+    // is used for determining whether to reChase
+    // !playerInRange() is also a condition
     bool isFacingPlayer()
     {
         float distanceX = target.position.x - transform.position.x;
         float distanceY = target.position.y - transform.position.y;
+
+        // check if is facing player
         switch (currentDirection)
         {
             case Direction.left:
             case Direction.right:
-                return distanceY < 0.494999f && distanceY > -0.574999f;
+                if (!(distanceY < 0.494999f && distanceY > -0.574999f))
+                {
+                    return false;
+                }
+                break;
             case Direction.up:
             case Direction.down:
-                return distanceX < 0.795f && distanceX > -0.795f;
+                if (!(distanceX < 0.795f && distanceX > -0.795f))
+                {
+                    return false;
+                }
+                break;
+        }
+
+        // check if is close enough to player
+        switch (currentDirection)
+        {
+            case Direction.left:
+            case Direction.right:
+                return Mathf.Abs(distanceX) <= 1.15f && Mathf.Abs(distanceX) > 0;
+            case Direction.up:
+                return distanceY <= 0.78 && distanceY > 0;
+            case Direction.down:
+                return distanceY >= -0.9f && distanceY < 0;
         }
 
         // should never reach here
