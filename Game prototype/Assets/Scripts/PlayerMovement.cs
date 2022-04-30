@@ -56,25 +56,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(currentAction);
-        //// prevent player from getting pushed
-        //Vector2 currentMovement = rb.velocity;
-        //switch (currentAction)
-        //{
-        //    case Action.walkLeft:
-        //        rb.velocity = new Vector2(-speed, 0);
-        //        break;
-        //    case Action.walkRight:
-        //        rb.velocity = new Vector2(speed, 0);
-        //        break;
-        //    case Action.walkUp:
-        //        rb.velocity = new Vector2(0, speed);
-        //        break;
-        //    case Action.walkDown:
-        //        rb.velocity = new Vector2(0, -speed);
-        //        break;
-        //}
-
         if (!movementFrozen)
         {
             if (Input.GetKeyDown("left"))
@@ -124,15 +105,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (actionInputs.Count > 0)
         {
-            string movementName = actionInputs[^1].ToString();
-            if (movementName.StartsWith("walk"))
-            {
-                walk(actionInputs[^1]);
-            }
-            else if (actionInputs[^1] == Action.slash)
-            {
-                slash();
-            }
+            handleAction();
         } else
         {
             switch (currentDirection)
@@ -153,6 +126,39 @@ public class PlayerMovement : MonoBehaviour
 
             currentAction = Action.idle;
             rb.velocity = Vector2.zero;
+        }
+    }
+
+    void handleAction()
+    {
+        if (currentAction == Action.slash)
+        {
+            AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+            if (state.normalizedTime > 1 && !animator.IsInTransition(0))
+            {
+                actionInputs.Remove(Action.slash);
+                currentAction = null;
+
+                if (actionInputs.Count == 0)
+                {
+                    return;
+                }
+            }
+            else
+            {
+                // if it's slashing then you can't interrupt
+                return;
+            }
+        }
+
+        Action action = actionInputs[^1];
+        if (action.ToString().StartsWith("walk"))
+        {
+            walk(action);
+        }
+        else if (action == Action.slash)
+        {
+            slash();
         }
     }
 
@@ -213,17 +219,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void slash()
     {
-        if (currentAction == Action.slash)
-        {
-            AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-            if (state.normalizedTime > 1 && !animator.IsInTransition(0))
-            {
-                actionInputs.Remove(Action.slash);
-                currentAction = null;
-            }
+        //if (currentAction == Action.slash)
+        //{
+        //    AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+        //    if (state.normalizedTime > 1 && !animator.IsInTransition(0))
+        //    {
+        //        actionInputs.Remove(Action.slash);
+        //        currentAction = null;
+        //    }
 
-            return;
-        }
+        //    return;
+        //}
 
         rb.velocity = Vector2.zero;
         switch (currentDirection)

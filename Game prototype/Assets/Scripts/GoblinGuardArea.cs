@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class GoblinGuardArea : MonoBehaviour
 {
-    [SerializeField] private GoblinMovement goblin;
+    [SerializeField] private GoblinMovement[] goblins;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            goblin.playerTriggerEnter();
+            foreach (GoblinMovement goblin in goblins)
+            {
+                goblin.playerTriggerEnter();
+            }
         }
     }
 
@@ -18,7 +21,10 @@ public class GoblinGuardArea : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            goblin.playerTriggerExit();
+            foreach (GoblinMovement goblin in goblins)
+            {
+                goblin.playerTriggerExit();
+            }
         }
     }
 }

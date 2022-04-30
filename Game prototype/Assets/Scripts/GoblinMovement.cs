@@ -10,7 +10,7 @@ public class GoblinMovement : MonoBehaviour
     private Transform target;
     private enum State
     {
-        chasing, rechasing, returning, attacking, idle
+        chasing, rechasing, returning, attacking, idle, waiting
     }
     private State state;
 
@@ -33,6 +33,8 @@ public class GoblinMovement : MonoBehaviour
     private HitboxDetector upHitbox;
     private HitboxDetector downHitbox;
 
+    private GameObject attentionMark;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +49,8 @@ public class GoblinMovement : MonoBehaviour
         rightHitbox = gameObject.transform.GetChild(2).gameObject.GetComponent<HitboxDetector>();
         upHitbox = gameObject.transform.GetChild(3).gameObject.GetComponent<HitboxDetector>();
         downHitbox = gameObject.transform.GetChild(4).gameObject.GetComponent<HitboxDetector>();
+
+        attentionMark = gameObject.transform.GetChild(9).gameObject;
     }
 
     // Update is called once per frame
@@ -130,13 +134,26 @@ public class GoblinMovement : MonoBehaviour
     public void playerTriggerEnter()
     {
         playerInArea = true;
-        chase();
+        StartCoroutine(triggerAttention());
     }
 
     public void playerTriggerExit()
     {
         playerInArea = false;
-        returnToOrigin();
+        // don't actually need this check
+        if (state != State.waiting)
+        {
+            returnToOrigin();
+        }
+    }
+
+    IEnumerator triggerAttention()
+    {
+        state = State.waiting;
+        attentionMark.SetActive(true);
+        yield return new WaitForSeconds(0.9f);
+        attentionMark.SetActive(false);
+        chase();
     }
 
     void idle()
