@@ -114,8 +114,8 @@ public class GoblinMovement : MonoBehaviour
             case State.attacking:
                 if (playerInArea && !canAttack)
                 {
-                    AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-                    if (state.normalizedTime > 1 && !animator.IsInTransition(0))
+                    AnimatorStateInfo animatorState = animator.GetCurrentAnimatorStateInfo(0);
+                    if (animatorState.normalizedTime > 1 && !animator.IsInTransition(0))
                     {
                         if (isFacingPlayer())
                         {

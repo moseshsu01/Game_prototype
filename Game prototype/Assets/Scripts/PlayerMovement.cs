@@ -133,8 +133,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (currentAction == Action.slash)
         {
-            AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-            if (state.normalizedTime > 1 && !animator.IsInTransition(0))
+            AnimatorStateInfo animatorState = animator.GetCurrentAnimatorStateInfo(0);
+            if (animatorState.normalizedTime > 1 && !animator.IsInTransition(0))
             {
                 actionInputs.Remove(Action.slash);
                 currentAction = null;

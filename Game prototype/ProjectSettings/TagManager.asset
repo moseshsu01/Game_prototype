@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Player hurtbox
   - Enemy hurtbox
+  - Player weapon
+  - Enemy weapon
   layers:
   - Default
   - TransparentFX
