@@ -100,6 +100,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -108,7 +120,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 126
+        y: 84
         width: 42
         height: 42
       alignment: 9
@@ -118,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8843d85a2706d44b280ba3215bceef68
-      internalID: -1558780763
+      spriteID: 4c918b9465d364846a421baff61a58ea
+      internalID: 1286067331
       vertices: []
       indices: 
       edges: []
@@ -129,7 +141,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 42
-        y: 126
+        y: 84
         width: 42
         height: 42
       alignment: 9
@@ -139,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53c4e5faa43f48abaf727b9a6f4019f
-      internalID: 119634012
+      spriteID: 534939b0dc7e542e0aefc56f5cba6f10
+      internalID: -842126407
       vertices: []
       indices: 
       edges: []
@@ -150,7 +162,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 126
+        y: 84
         width: 42
         height: 42
       alignment: 9
@@ -160,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7eed450628544f45b58fccda63683d3
-      internalID: -1038769641
+      spriteID: a9dce47b9ffde4bd98b98ff78754de0a
+      internalID: 532116118
       vertices: []
       indices: 
       edges: []
@@ -171,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 84
+        y: 42
         width: 42
         height: 42
       alignment: 9
@@ -181,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96e901c4532654fe78ae8661876875b4
-      internalID: -1036748989
+      spriteID: 7d364bad27a4a4a0ba3bba251f72ee99
+      internalID: 1370430055
       vertices: []
       indices: 
       edges: []
@@ -192,7 +204,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 42
-        y: 84
+        y: 42
         width: 42
         height: 42
       alignment: 9
@@ -202,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e0c430a8c4cd4174befe9f9bddf9fa8
-      internalID: -97007524
+      spriteID: d3a72b1bfbf1048d4abb416a4150d74e
+      internalID: 366216662
       vertices: []
       indices: 
       edges: []
@@ -213,7 +225,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 84
+        y: 42
         width: 42
         height: 42
       alignment: 9
@@ -223,77 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da62d95eab5e4b80b34078e6343d9ab
-      internalID: 1292830752
+      spriteID: b565bf671655c44c885e5a64d1e75a5e
+      internalID: -119934197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Slash down_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 42
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.26}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99f0c6657bb944e918ee83f1dde81dba
-      internalID: -1082430446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash down_7
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 42
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.26}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc7e00f3fc19d40d5aa30c4bdfe8eb77
-      internalID: -1928823848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash down_8
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 42
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.26}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1088aefd18ea74aa4afa813c0b8a1ea9
-      internalID: 769874024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash down_9
       rect:
         serializedVersion: 2
         x: 0
@@ -307,8 +256,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73a225417e39a4eac89d8bddec85e621
-      internalID: -405324354
+      spriteID: 2e3ca02a66fcb4492947d3cca73daf39
+      internalID: -622535268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash down_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e73a84b5244449a496c982a6ea78f6f
+      internalID: -1056827286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash down_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1047733936ec4ddb9256188ef23ebcf
+      internalID: 1193372790
       vertices: []
       indices: 
       edges: []
@@ -324,16 +315,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slash down_6: -1082430446
-      Slash down_2: -1038769641
-      Slash down_4: -97007524
-      Slash down_3: -1036748989
-      Slash down_1: 119634012
-      Slash down_8: 769874024
-      Slash down_5: 1292830752
-      Slash down_9: -405324354
-      Slash down_0: -1558780763
-      Slash down_7: -1928823848
+      Slash down_6: -622535268
+      Slash down_2: 532116118
+      Slash down_4: 366216662
+      Slash down_3: 1370430055
+      Slash down_1: -842126407
+      Slash down_8: 1193372790
+      Slash down_5: -119934197
+      Slash down_0: 1286067331
+      Slash down_7: -1056827286
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
