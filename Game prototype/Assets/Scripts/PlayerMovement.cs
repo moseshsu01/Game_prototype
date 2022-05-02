@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator animator;
-    private enum Direction
+    public enum Direction
     {
         left, right, up, down
     }
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         slash
     }
     private List<Action> actionInputs = new();
-    private Direction currentDirection = Direction.down;
+    public Direction currentDirection;
     private Action? currentAction;
 
     private bool movementFrozen = false;
@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        currentDirection = Direction.down;
     }
 
     void Update()

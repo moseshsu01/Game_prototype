@@ -16,7 +16,7 @@ public class PlayerAttackHitbox : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy hurtbox"))
         {
-            playerAttack.slash(collision.gameObject.transform.position);
+            playerAttack.slash(collision.gameObject.transform.parent.gameObject);
         }
     }
 }

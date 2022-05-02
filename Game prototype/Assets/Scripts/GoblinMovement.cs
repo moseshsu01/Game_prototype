@@ -10,7 +10,7 @@ public class GoblinMovement : MonoBehaviour
     private Transform target;
     private enum State
     {
-        chasing, rechasing, returning, attacking, idle, waiting
+        chasing, rechasing, returning, attacking, idle, waiting, gettingHit
     }
     private State state;
 
@@ -134,7 +134,13 @@ public class GoblinMovement : MonoBehaviour
     public void playerTriggerEnter()
     {
         playerInArea = true;
-        StartCoroutine(triggerAttention());
+        if (state == State.idle)
+        {
+            StartCoroutine(triggerAttention());
+        } else
+        {
+            chase();
+        }
     }
 
     public void playerTriggerExit()
@@ -153,7 +159,10 @@ public class GoblinMovement : MonoBehaviour
         attentionMark.SetActive(true);
         yield return new WaitForSeconds(0.9f);
         attentionMark.SetActive(false);
-        chase();
+        if (playerInArea)
+        {
+            chase();
+        }
     }
 
     void idle()
@@ -161,7 +170,12 @@ public class GoblinMovement : MonoBehaviour
         rb.velocity = Vector2.zero;
         state = State.idle;
 
-        switch (defaultDirection)
+        if (transform.position == origin.position)
+        {
+            currentDirection = defaultDirection;
+        }
+
+        switch (currentDirection)
         {
             case Direction.left:
                 animator.Play("Idle left");
@@ -176,8 +190,6 @@ public class GoblinMovement : MonoBehaviour
                 animator.Play("Idle down");
                 break;
         }
-
-        currentDirection = defaultDirection;
     }
 
     void attack()
@@ -202,10 +214,8 @@ public class GoblinMovement : MonoBehaviour
         }
     }
 
-    void chase()
+    public void chase()
     {
-        // display an exclamation mark or something
-
         state = State.chasing;
         float distanceX = target.position.x - transform.position.x;
         float distanceY = target.position.y - transform.position.y;
@@ -335,20 +345,27 @@ public class GoblinMovement : MonoBehaviour
         currentDirection = getWalkDirection(walkInput);
         animator.Play(walkInput.ToString());
 
+        Vector2 movement = Vector2.zero;
+
         switch (walkInput)
         {
             case WalkAction.walkLeft:
-                rb.velocity = new Vector2(-speed, 0);
+                movement = new Vector2(-speed, 0);
                 break;
             case WalkAction.walkRight:
-                rb.velocity = new Vector2(speed, 0);
+                movement = new Vector2(speed, 0);
                 break;
             case WalkAction.walkUp:
-                rb.velocity = new Vector2(0, speed);
+                movement = new Vector2(0, speed);
                 break;
             case WalkAction.walkDown:
-                rb.velocity = new Vector2(0, -speed);
+                movement = new Vector2(0, -speed);
                 break;
+        }
+
+        if (rb.velocity != movement)
+        {
+            rb.velocity = movement;
         }
     }
 
@@ -392,6 +409,27 @@ public class GoblinMovement : MonoBehaviour
 
         // should never reach here
         return false;
+    }
+
+    public void getHit(Vector2 force, float knockTime)
+    {
+        state = State.gettingHit;
+
+        animator.Play("Get hit " + currentDirection.ToString());
+
+        rb.isKinematic = false;
+        rb.velocity = Vector2.zero;
+        rb.AddForce(force, ForceMode2D.Impulse);
+        StartCoroutine(knockback(knockTime));
+    }
+
+    private IEnumerator knockback(float knockTime)
+    {
+        yield return new WaitForSeconds(knockTime);
+        rb.isKinematic = true;
+        idle();
+        yield return new WaitForSeconds(0.3f);
+        chase();
     }
 
     bool inAttackRange()
