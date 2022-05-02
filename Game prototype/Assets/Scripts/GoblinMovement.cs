@@ -427,7 +427,7 @@ public class GoblinMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(knockTime);
         rb.isKinematic = true;
-        idle();
+        rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(0.3f);
         chase();
     }
