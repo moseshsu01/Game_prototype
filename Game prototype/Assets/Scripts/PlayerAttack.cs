@@ -66,7 +66,7 @@ public class PlayerAttack : MonoBehaviour
                     break;
             }
 
-            enemy.GetComponent<GoblinMovement>().getHit(force, knockTime);
+            enemy.GetComponent<GoblinMovement>().getHit(force, knockTime, 1);
         }
     }
 }

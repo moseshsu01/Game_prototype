@@ -12,7 +12,10 @@ public class GoblinGuardArea : MonoBehaviour
         {
             foreach (GoblinMovement goblin in goblins)
             {
-                goblin.playerTriggerEnter();
+                if (goblin.gameObject.activeSelf)
+                {
+                    goblin.playerTriggerEnter();
+                }
             }
         }
     }
@@ -23,7 +26,10 @@ public class GoblinGuardArea : MonoBehaviour
         {
             foreach (GoblinMovement goblin in goblins)
             {
-                goblin.playerTriggerExit();
+                if (goblin.gameObject.activeSelf)
+                {
+                    goblin.playerTriggerExit();
+                }
             }
         }
     }

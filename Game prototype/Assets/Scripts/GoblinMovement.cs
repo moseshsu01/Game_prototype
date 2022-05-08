@@ -10,7 +10,7 @@ public class GoblinMovement : MonoBehaviour
     private Transform target;
     private enum State
     {
-        chasing, rechasing, returning, attacking, idle, waiting, gettingHit
+        chasing, rechasing, returning, attacking, idle, waiting, gettingHit, dead
     }
     private State state;
 
@@ -35,6 +35,11 @@ public class GoblinMovement : MonoBehaviour
 
     private GameObject attentionMark;
 
+    // Health system
+
+    [SerializeField] private int maxHealth;
+    private int currentHealth;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,13 +56,18 @@ public class GoblinMovement : MonoBehaviour
         downHitbox = gameObject.transform.GetChild(4).gameObject.GetComponent<HitboxDetector>();
 
         attentionMark = gameObject.transform.GetChild(9).gameObject;
+
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
         bool canAttack = inAttackRange();
-        switch (state)
+        AnimatorStateInfo animatorState = animator.GetCurrentAnimatorStateInfo(0);
+        bool currentAnimationFinished = animatorState.normalizedTime > 1 && !animator.IsInTransition(0);
+
+            switch (state)
         {
             case State.chasing:
             case State.rechasing:
@@ -114,8 +124,7 @@ public class GoblinMovement : MonoBehaviour
             case State.attacking:
                 if (playerInArea && !canAttack)
                 {
-                    AnimatorStateInfo animatorState = animator.GetCurrentAnimatorStateInfo(0);
-                    if (animatorState.normalizedTime > 1 && !animator.IsInTransition(0))
+                    if (currentAnimationFinished)
                     {
                         if (isFacingPlayer())
                         {
@@ -126,6 +135,12 @@ public class GoblinMovement : MonoBehaviour
                             chase();
                         }
                     }
+                }
+                break;
+            case State.dead:
+                if (currentAnimationFinished)
+                {
+                    gameObject.SetActive(false);
                 }
                 break;
         }
@@ -411,11 +426,13 @@ public class GoblinMovement : MonoBehaviour
         return false;
     }
 
-    public void getHit(Vector2 force, float knockTime)
+    public void getHit(Vector2 force, float knockTime, int damage)
     {
         state = State.gettingHit;
 
         animator.Play("Get hit " + currentDirection.ToString());
+
+        currentHealth -= damage;
 
         rb.isKinematic = false;
         rb.velocity = Vector2.zero;
@@ -429,7 +446,21 @@ public class GoblinMovement : MonoBehaviour
         rb.isKinematic = true;
         rb.velocity = Vector2.zero;
         yield return new WaitForSeconds(0.3f);
-        chase();
+
+        if (currentHealth <= 0)
+        {
+            die();
+        } else
+        {
+            chase();
+        }
+    }
+
+    private void die()
+    {
+        state = State.dead;
+        animator.Play("Death cloud");
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
 
     bool inAttackRange()
