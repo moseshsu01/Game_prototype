@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 322336baff32b4db2a7c9811f4535c0a
+guid: e78eeb42c05dd4d1cbc8b48ff98e52f0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -120,7 +120,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 84
+        y: 126
         width: 42
         height: 42
       alignment: 9
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be4a8481027264e56bda6008dd722aa5
-      internalID: 1968483820
+      spriteID: aa4d5fd87f27b4e1e90442c634606c90
+      internalID: 1200653504
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 42
-        y: 84
+        y: 126
         width: 42
         height: 42
       alignment: 9
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be2dc9c2b90d24be381a99fcceff8ceb
-      internalID: -373291817
+      spriteID: 03a928db25efa4b03b94bca188b50386
+      internalID: -936635523
       vertices: []
       indices: 
       edges: []
@@ -162,6 +162,48 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
+        y: 126
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52fca5764a694bf5aecee7173a52df9
+      internalID: -204149399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death cloud_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 126
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3951e79ca9ac14018980b08c4b0ce43a
+      internalID: 668613481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death cloud_4
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 84
         width: 42
         height: 42
@@ -172,50 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7251cbcbf41264825a1884ce53ea05cf
-      internalID: 690308280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death cloud_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 42
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93281ac925249470895f8f03941e0c98
-      internalID: -656484738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death cloud_4
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 42
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc475c2ecb4474825a16ce6f2ff88165
-      internalID: 858864406
+      spriteID: 7ad6f5d18e4d04ff4b82e83c6382ff29
+      internalID: -1125970351
       vertices: []
       indices: 
       edges: []
@@ -224,7 +224,70 @@ TextureImporter:
       name: Death cloud_5
       rect:
         serializedVersion: 2
+        x: 42
+        y: 84
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c9f305729954ec08ad14504ec9e013
+      internalID: -1066090032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death cloud_6
+      rect:
+        serializedVersion: 2
         x: 84
+        y: 84
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8af147a3edd84366ba27d2d2e1718f3
+      internalID: -482384634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death cloud_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 84
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc91a5a6cf5dc45d78f7fcb9f5de96e4
+      internalID: -1234010565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death cloud_8
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 42
         width: 42
         height: 42
@@ -235,29 +298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76459ca0c439948c086d7b5bbf60d345
-      internalID: 797047412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death cloud_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 42
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51ea014ba9eaf44d784de299f02aa363
-      internalID: 495430119
+      spriteID: 09925471a1cec4a089b890fbb7e0ac37
+      internalID: 564934377
       vertices: []
       indices: 
       edges: []
@@ -273,13 +315,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Death cloud_0: 1968483820
-      Death cloud_3: -656484738
-      Death cloud_5: 797047412
-      Death cloud_2: 690308280
-      Death cloud_4: 858864406
-      Death cloud_1: -373291817
-      Death cloud_6: 495430119
+      Death cloud_0: 1200653504
+      Death cloud_3: 668613481
+      Death cloud_5: -1066090032
+      Death cloud_2: -204149399
+      Death cloud_4: -1125970351
+      Death cloud_1: -936635523
+      Death cloud_6: -482384634
+      Death cloud_7: -1234010565
+      Death cloud_8: 564934377
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
