@@ -47,12 +47,22 @@ public class PlayerMovement : MonoBehaviour
     public delegate void AButtonPress();
     public AButtonPress playerAButton;
 
+    [SerializeField] public bool canAttack;
+
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentDirection = Direction.down;
+
+        if (canAttack)
+        {
+            playerAButton = () => actionInputs.Add(Action.slash);
+        } else
+        {
+            playerAButton = () => { };
+        }
     }
 
     void Update()
@@ -78,10 +88,6 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetButtonDown("AButton"))
             {
-                if (playerAButton == null)
-                {
-                    playerAButton = () => actionInputs.Add(Action.slash);
-                }
                 playerAButton();
             }
 

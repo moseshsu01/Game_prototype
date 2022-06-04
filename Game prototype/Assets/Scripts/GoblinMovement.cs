@@ -428,6 +428,12 @@ public class GoblinMovement : MonoBehaviour
 
     public void getHit(Vector2 force, float knockTime, int damage)
     {
+        // if they get hit after dying but before disappearing
+        if (state == State.dead)
+        {
+            return;
+        }
+
         state = State.gettingHit;
 
         animator.Play("Get hit " + currentDirection.ToString());
