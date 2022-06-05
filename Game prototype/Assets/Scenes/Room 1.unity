@@ -3205,6 +3205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Home Area
+  fadeInImage: {fileID: 7110651591749872587, guid: ecbf00312f8db45b1a2aa9b41bc4154d, type: 3}
 --- !u!61 &1896930876
 BoxCollider2D:
   m_ObjectHideFlags: 0
