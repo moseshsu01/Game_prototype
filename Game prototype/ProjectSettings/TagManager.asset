@@ -102,9 +102,6 @@ TagManager:
   - name: Objects
     uniqueID: 406475637
     locked: 0
-  - name: Buildings
-    uniqueID: 65834033
-    locked: 0
   - name: Elevated
     uniqueID: 3121710953
     locked: 0

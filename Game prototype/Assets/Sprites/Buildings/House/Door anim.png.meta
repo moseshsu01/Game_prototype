@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d28e15fe67c34190b5df7b0901336ce
-      internalID: -939243703
+      spriteID: d8b6f18cc925d4236a000c65c6420151
+      internalID: 1619477319
       vertices: []
       indices: 
       edges: []
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4c75af9e81e4d948ba3baf06e9f64c
-      internalID: 2100849256
+      spriteID: 5ddb61113c7fa4831a87861e1c716e99
+      internalID: -1535781106
       vertices: []
       indices: 
       edges: []
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a251c6cce2d48e090fee1f6ebfa31e
-      internalID: -1558419450
+      spriteID: 75309e46ae57245c680e60e60210bcd9
+      internalID: 925914927
       vertices: []
       indices: 
       edges: []
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1396967ed231047c8b99f3685b5f8a06
-      internalID: -1770255427
+      spriteID: 6bdfd6c786f55421abe97b3e0f612bf8
+      internalID: -1333878172
       vertices: []
       indices: 
       edges: []
@@ -210,10 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Door anim_2: -1558419450
-      Door anim_0: -939243703
-      Door anim_1: 2100849256
-      Door anim_3: -1770255427
+      Door anim_2: 925914927
+      Door anim_0: 1619477319
+      Door anim_1: -1535781106
+      Door anim_3: -1333878172
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
