@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         slash
     }
     private List<Action> actionInputs = new();
-    public Direction currentDirection;
+    [SerializeField] public Direction currentDirection;
     private Action? currentAction;
 
     private bool movementFrozen = false;
@@ -54,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        currentDirection = Direction.down;
 
         if (canAttack)
         {
